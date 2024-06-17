@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: thapim-keycloak
+  name: thapim-keycloak-test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: thapim-keycloak
+      app: thapim-keycloak-test
   template:
     metadata:
       labels:
-        app: thapim-keycloak
+        app: thapim-keycloak-test
     spec:
       affinity:
         nodeAffinity:
@@ -69,17 +69,17 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: thapim-keycloak
+  name: thapim-keycloak-test
   labels:
-    app: thapim-keycloak
+    app: thapim-keycloak-test
 spec:
   selector:
-    app: thapim-keycloak
+    app: thapim-keycloak-test
   ports:
     - protocol: TCP
       name: portal
       port: 8080
-      nodePort: 31100
+      nodePort: 31101
       targetPort: 8080
   type: NodePort
   externalTrafficPolicy: Local
