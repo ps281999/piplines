@@ -23,7 +23,7 @@ spec:
                 - "keycloak"
       containers:
       - name: app
-        image: 004537899190.dkr.ecr.eu-west-1.amazonaws.com/dmapimv3.7:v3.7_keycloak_RHEL_WITH_JAVA
+        image: 004537899190.dkr.ecr.eu-west-1.amazonaws.com/dmapimv3.7:latest
         args: ["start"]
         ports:
         - containerPort: 8080
