@@ -1,0 +1,945 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "Dev_Business_Resource",
+	  "type": "urn:devportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "Dev_Business_Resource",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "getGraphqlTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "getPackDetailsByPackId"
+        },
+		{
+          "name": "executeGraphqlTryIt"
+        },
+		{
+          "name": "getSoapTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "executeSoapTryIt"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "addApplication"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "addBookMark"
+        },
+		{
+          "name": "getBookMarks"
+        },
+		{
+          "name": "deleteBookmark"
+        },
+		{
+          "name": "cusAddTopic"
+        },
+		{
+          "name": "cusGetTopics"
+        },
+		{
+          "name": "getCusTopicByTopicId"
+        },
+		{
+          "name": "getCusAllRepliesByReplyId"
+        },
+		{
+          "name": "deleteTopicByTopicId"
+        },
+		{
+          "name": "cusAddReply"
+        },
+		{
+          "name": "getConsumerStore"
+        },
+		{
+          "name": "getApiPackbySearchKey"
+        },
+		{
+          "name": "getApiPackAndUsagePlanDetailsByPackId"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getDisplayOerderList"
+        },
+		{
+          "name": "getApiPackbySearchKeyAndOrder"
+        },
+		{
+          "name": "downloadSwagger"
+        },
+		{
+          "name": "updateRating"
+        },
+		{
+          "name": "getApiPackRatingDetailsByPackId"
+        },
+		{
+          "name": "getSwaggerByPlainId"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "cancelSubscription"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+          "name": "updateSubscriptionAutoRenew"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "updateSubscriptionAuthentication"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "addSubscription"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+			"name": "getUsagePlanVersionDetailsByPackIdPlanIdVersionId"
+		},
+		{
+			"name": "cancelPaymentSubscription"
+		},
+		{
+			"name": "renewSubscription"
+		},
+		{
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		},
+        {
+			"name": "rayzorpaykey"
+		},
+		{
+			"name": "paymentgatewaystatus"
+		}
+      ],
+      "icon_uri": ""
+    },
+	{
+      "name": "Dev_Admin_Resource",
+	  "type": "urn:devportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "Dev_Admin_Resource",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "getGraphqlTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "getPackDetailsByPackId"
+        },
+		{
+          "name": "executeGraphqlTryIt"
+        },
+		{
+          "name": "getSoapTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "executeSoapTryIt"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "addApplication"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "addBookMark"
+        },
+		{
+          "name": "getBookMarks"
+        },
+		{
+          "name": "deleteBookmark"
+        },
+		{
+          "name": "cusAddTopic"
+        },
+		{
+          "name": "cusGetTopics"
+        },
+		{
+          "name": "getCusTopicByTopicId"
+        },
+		{
+          "name": "getCusAllRepliesByReplyId"
+        },
+		{
+          "name": "deleteTopicByTopicId"
+        },
+		{
+          "name": "cusAddReply"
+        },
+		{
+          "name": "getConsumerStore"
+        },
+		{
+          "name": "getApiPackbySearchKey"
+        },
+		{
+          "name": "getApiPackAndUsagePlanDetailsByPackId"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getDisplayOerderList"
+        },
+		{
+          "name": "getApiPackbySearchKeyAndOrder"
+        },
+		{
+          "name": "downloadSwagger"
+        },
+		{
+          "name": "updateRating"
+        },
+		{
+          "name": "getApiPackRatingDetailsByPackId"
+        },
+		{
+          "name": "getSwaggerByPlainId"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "cancelSubscription"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+          "name": "updateSubscriptionAutoRenew"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "updateSubscriptionAuthentication"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+			"name": "getUsagePlanVersionDetailsByPackIdPlanIdVersionId"
+		},
+        {
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		}
+      ],
+      "icon_uri": ""
+    },
+	{
+      "name": "Dev_Technical_Resource",
+	  "type": "urn:devportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "Dev_Admin_Resource",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "getGraphqlTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "getPackDetailsByPackId"
+        },
+		{
+          "name": "executeGraphqlTryIt"
+        },
+		{
+          "name": "getSoapTryItResourceDetailsUsingPackId"
+        },
+		{
+          "name": "executeSoapTryIt"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "addApplication"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "addBookMark"
+        },
+		{
+          "name": "getBookMarks"
+        },
+		{
+          "name": "deleteBookmark"
+        },
+		{
+          "name": "cusAddTopic"
+        },
+		{
+          "name": "cusGetTopics"
+        },
+		{
+          "name": "getCusTopicByTopicId"
+        },
+		{
+          "name": "getCusAllRepliesByReplyId"
+        },
+		{
+          "name": "deleteTopicByTopicId"
+        },
+		{
+          "name": "cusAddReply"
+        },
+		{
+          "name": "getConsumerStore"
+        },
+		{
+          "name": "getApiPackbySearchKey"
+        },
+		{
+          "name": "getApiPackAndUsagePlanDetailsByPackId"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getDisplayOerderList"
+        },
+		{
+          "name": "getApiPackbySearchKeyAndOrder"
+        },
+		{
+          "name": "downloadSwagger"
+        },
+		{
+          "name": "updateRating"
+        },
+		{
+          "name": "getApiPackRatingDetailsByPackId"
+        },
+		{
+          "name": "getSwaggerByPlainId"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "cancelSubscription"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+          "name": "updateSubscriptionAutoRenew"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "updateSubscriptionAuthentication"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+			"name": "getUsagePlanVersionDetailsByPackIdPlanIdVersionId"
+		},
+        {
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		}
+      ],
+      "icon_uri": ""
+    }
+  ],
+  "policies": [
+    {
+      "name": "Dev_Business_Policy",
+      "description": "Dev_Business_Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_DEV_BUSINESS\",\"required\":true}]"
+      }
+    },
+	{
+      "name": "Dev_Admin_Policy",
+      "description": "Dev_Admin_Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_DEV_ADMIN\",\"required\":true}]"
+      }
+    },
+	{
+      "name": "Dev_Technical_Policy",
+      "description": "Dev_Technical_Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_DEV_TECHNICAL\",\"required\":true}]"
+      }
+    },
+    {
+      "name": "Dev_Business_Permission",
+      "description": "Dev_Business_Permission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"Dev_Business_Resource\"]",
+        "applyPolicies": "[\"Dev_Business_Policy\"]"
+      }
+    },
+	{
+      "name": "Dev_Admin_Permission",
+      "description": "Dev_Admin_Permission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"Dev_Admin_Resource\"]",
+        "applyPolicies": "[\"Dev_Admin_Policy\"]"
+      }
+    },
+	{
+      "name": "Dev_Technical_Permission",
+      "description": "Dev_Technical_Permission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"Dev_Technical_Resource\"]",
+        "applyPolicies": "[\"Dev_Technical_Policy\"]"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "name": "getApiDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiDetailsByPackId"
+    },
+	{
+      "name": "getOverviewByApiPackId",
+      "iconUri": "",
+      "displayName": "getOverviewByApiPackId"
+    },
+	{
+      "name": "getGraphqlTryItResourceDetailsUsingPackId",
+      "iconUri": "",
+      "displayName": "getGraphqlTryItResourceDetailsUsingPackId"
+    },
+	{
+      "name": "getPackDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getPackDetailsByPackId"
+    },
+	{
+      "name": "executeSoapTryIt",
+      "iconUri": "",
+      "displayName": "executeSoapTryIt"
+    },
+	{
+      "name": "getPlanResourcesByPlanId",
+      "iconUri": "",
+      "displayName": "getPlanResourcesByPlanId"
+    },
+	{
+      "name": "addApplication",
+      "iconUri": "",
+      "displayName": "addApplication"
+    },
+	{
+      "name": "executeGraphqlTryIt",
+      "iconUri": "",
+      "displayName": "executeGraphqlTryIt"
+    },
+	{
+      "name": "getSoapTryItResourceDetailsUsingPackId",
+      "iconUri": "",
+      "displayName": "getSoapTryItResourceDetailsUsingPackId"
+    },
+	{
+      "name": "getApplicationsBySubOrg",
+      "iconUri": "",
+      "displayName": "getApplicationsBySubOrg"
+    },
+	{
+      "name": "getApplicationById",
+      "iconUri": "",
+      "displayName": "getApplicationById"
+    },
+	{
+      "name": "updateApplication",
+      "iconUri": "",
+      "displayName": "updateApplication"
+    },
+	{
+      "name": "getTokenByClientId",
+      "iconUri": "",
+      "displayName": "getTokenByClientId"
+    },
+	{
+      "name": "getOauthTokenByGrantType",
+      "iconUri": "",
+      "displayName": "getOauthTokenByGrantType"
+    },
+	{
+      "name": "revokeAccessToken",
+      "iconUri": "",
+      "displayName": "revokeAccessToken"
+    },
+	{
+      "name": "showAccessToken",
+      "iconUri": "",
+      "displayName": "showAccessToken"
+    },
+	{
+      "name": "showClientSecret",
+      "iconUri": "",
+      "displayName": "showClientSecret"
+    },
+	{
+      "name": "createApproval",
+      "iconUri": "",
+      "displayName": "createApproval"
+    },
+	{
+      "name": "retCategoryNamesForRoot",
+      "iconUri": "",
+      "displayName": "retCategoryNamesForRoot"
+    },
+	{
+      "name": "getApplicationsBySubOrg",
+      "iconUri": "",
+      "displayName": "getApplicationsBySubOrg"
+    },
+	{
+      "name": "addBookMark",
+      "iconUri": "",
+      "displayName": "addBookMark"
+    },
+	{
+      "name": "getBookMarks",
+      "iconUri": "",
+      "displayName": "getBookMarks"
+    },
+	{
+      "name": "deleteBookmark",
+      "iconUri": "",
+      "displayName": "deleteBookmark"
+    },
+	{
+      "name": "cusAddTopic",
+      "iconUri": "",
+      "displayName": "cusAddTopic"
+    },
+	{
+      "name": "cusGetTopics",
+      "iconUri": "",
+      "displayName": "cusGetTopics"
+    },
+	{
+      "name": "getCusTopicByTopicId",
+      "iconUri": "",
+      "displayName": "getCusTopicByTopicId"
+    },
+	{
+      "name": "getCusAllRepliesByReplyId",
+      "iconUri": "",
+      "displayName": "getCusAllRepliesByReplyId"
+    },
+	{
+      "name": "deleteTopicByTopicId",
+      "iconUri": "",
+      "displayName": "deleteTopicByTopicId"
+    },
+	{
+      "name": "cusAddReply",
+      "iconUri": "",
+      "displayName": "cusAddReply"
+    },
+	{
+      "name": "getConsumerStore",
+      "iconUri": "",
+      "displayName": "getConsumerStore"
+    },
+	{
+      "name": "getApiPackbySearchKey",
+      "iconUri": "",
+      "displayName": "getApiPackbySearchKey"
+    },
+	{
+      "name": "getApiPackAndUsagePlanDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackAndUsagePlanDetailsByPackId"
+    },
+	{
+      "name": "getFullImage",
+      "iconUri": "",
+      "displayName": "getFullImage"
+    },
+	{
+      "name": "getDisplayOerderList",
+      "iconUri": "",
+      "displayName": "getDisplayOerderList"
+    },
+	{
+      "name": "getApiPackbySearchKeyAndOrder",
+      "iconUri": "",
+      "displayName": "getApiPackbySearchKeyAndOrder"
+    },
+	{
+      "name": "downloadSwagger",
+      "iconUri": "",
+      "displayName": "downloadSwagger"
+    },
+	{
+      "name": "updateRating",
+      "iconUri": "",
+      "displayName": "updateRating"
+    },
+	{
+      "name": "getApiPackRatingDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackRatingDetailsByPackId"
+    },
+	{
+      "name": "getSwaggerByPlainId",
+      "iconUri": "",
+      "displayName": "getSwaggerByPlainId"
+    },
+	{
+      "name": "getSubscriberPoliciesByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberPoliciesByUsagePlanId"
+    },
+	{
+      "name": "cancelSubscription",
+      "iconUri": "",
+      "displayName": "cancelSubscription"
+    },
+	{
+      "name": "getSubscriptionsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getSubscriptionsBySubOrgId"
+    },
+	{
+      "name": "updateSubscriptionAutoRenew",
+      "iconUri": "",
+      "displayName": "updateSubscriptionAutoRenew"
+    },
+	{
+      "name": "getSubscriptionBySubscriptId",
+      "iconUri": "",
+      "displayName": "getSubscriptionBySubscriptId"
+    },
+	{
+      "name": "updateSubscriptionAuthentication",
+      "iconUri": "",
+      "displayName": "updateSubscriptionAuthentication"
+    },
+	{
+      "name": "getSubscribedActivePlanDetails",
+      "iconUri": "",
+      "displayName": "getSubscribedActivePlanDetails"
+    },
+	{
+      "name": "addSubscription",
+      "iconUri": "",
+      "displayName": "addSubscription"
+    },
+	{
+      "name": "testSubscription",
+      "iconUri": "",
+      "displayName": "testSubscription"
+    },
+	{
+      "name": "testSubscriptionMultipart",
+      "iconUri": "",
+      "displayName": "testSubscriptionMultipart"
+    },
+	{
+      "name": "updateUserData",
+      "iconUri": "",
+      "displayName": "updateUserData"
+    },
+	{
+      "name": "updateUserPassword",
+      "iconUri": "",
+      "displayName": "updateUserPassword"
+    },
+	{
+      "name": "updatePasswordExpiryNotification",
+      "iconUri": "",
+      "displayName": "updatePasswordExpiryNotification"
+    },
+	{
+      "name": "updateUser",
+      "iconUri": "",
+      "displayName": "updateUser"
+    },
+	{
+		"name": "getUsagePlanVersionDetailsByPackIdPlanIdVersionId",
+		"iconUri": "",
+		"displayName": "getUsagePlanVersionDetailsByPackIdPlanIdVersionId"
+	},
+	{
+      "name": "cancelPaymentSubscription",
+      "iconUri": "",
+      "displayName": "cancelPaymentSubscription"
+    },
+	{
+		"name": "renewSubscription",
+		"iconUri": "",
+		"displayName": "renewSubscription"
+	},
+	{
+		"name": "regexForSubnet",
+		"iconUri": "",
+		"displayName": "regexForSubnet"
+	},
+	{
+		"name": "regexForIpv4",
+		"iconUri": "",
+		"displayName": "regexForIpv4"
+	},
+	{
+		"name": "regexForIpv6",
+		"iconUri": "",
+		"displayName": "regexForIpv6"
+	},
+	{
+		"name": "regexForCIDR",
+		"iconUri": "",
+		"displayName": "regexForCIDR"
+	},
+	{
+		"name": "rayzorpaykey",
+		"iconUri": "",
+		"displayName": "rayzorpaykey"
+	},
+    {
+		"name": "paymentgatewaystatus",
+		"iconUri": "",
+		"displayName": "paymentgatewaystatus"
+	}
+  ],
+  "decisionStrategy": "AFFIRMATIVE"
+}

@@ -1,0 +1,7293 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "TechnicalResources",
+	  "type": "urn:pubportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "TechnicalResources",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApis"
+        },
+		{
+          "name": "getApisByType"
+        },
+		{
+          "name": "addApi"
+        },
+		{
+          "name": "deleteApi"
+        },
+		{
+          "name": "updateApiName"
+        },
+		{
+          "name": "getVersionByRevision"
+        },
+		{
+          "name": "getApiGatewayUri"
+        },
+		{
+          "name": "testApi"
+        },
+		{
+          "name": "testApiAttachment"
+        },
+		{
+          "name": "getMCTLimit"
+        },
+		{
+          "name": "updateMCTLimit"
+        },
+		{
+          "name": "wsdlData"
+        },
+		{
+          "name": "updateOperations"
+        },
+		{
+          "name": "wsdlOperationsUpdation"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdl"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdlURL"
+        },
+		{
+          "name": "updateWsdlOperations"
+        },
+		{
+          "name": "validateBeforedeletingOperations"
+        },
+		{
+          "name": "deleteCopiedOperationOnClickCancel"
+        },
+		{
+          "name": "getExposurebasepathFromWsdl"
+        },
+		{
+          "name": "getExposureBasePathFromWSDLURL"
+        },
+		{
+          "name": "getOverviewByApiId"
+        },
+		{
+          "name": "updateOverview"
+        },
+		{
+          "name": "getOverviewAndLatestVersionByApiId"
+        },
+		{
+          "name": "getExposureBasePathFromSwaggerURLRest"
+        },
+		{
+          "name": "getSwaggerDataFromURL"
+        },
+		{
+          "name": "validateExposureBasePath"
+        },
+		{
+          "name": "resourceOperations"
+        },
+		{
+          "name": "getResources"
+        },
+		{
+          "name": "getResource"
+        },
+		{
+          "name": "checkIsResourceExists"
+        },
+		{
+          "name": "swaggerData"
+        },
+		{
+          "name": "getMasterSwaggerFromZip"
+        },
+		{
+          "name": "buildSwaggerFromMaster"
+        },
+		{
+          "name": "removeSwaggerFile"
+        },
+		{
+          "name": "getResourceListFromSwagger"
+        },
+		{
+          "name": "getResourceListFromGraphQL"
+        },
+		{
+          "name": "updateSwaggerResources"
+        },
+		{
+          "name": "updateResourceLevelRespCaching"
+        },
+		{
+          "name": "buildSwaggerFromMasterFile"
+        },
+		{
+          "name": "validateBeforedeleting"
+        },
+		{
+          "name": "downloadResourceFile"
+        },
+		{
+          "name": "getExposurebasepathFromSwagger"
+        },
+		{
+          "name": "deleteCopiedResourcesOnClickCancel"
+        },
+		{
+          "name": "getMaskingResourceTransformations"
+        },
+		{
+          "name": "updateResourceMasking"
+        },
+		{
+          "name": "getResourceTransformations"
+        },
+		{
+          "name": "updateResourceTransformation"
+        },
+		{
+          "name": "updateSchemaValidations"
+        },
+		{
+          "name": "GenericSchemaValidation"
+        },
+		{
+          "name": "getResourceSchemaXsd"
+        },
+		{
+          "name": "updateResourceSchemaXsd"
+        },
+		{
+          "name": "getApiSearchResult"
+        },
+		{
+          "name": "updateSecurityPolicy"
+        },
+		{
+          "name": "getBackendEndpointsByApiVersionId"
+        },
+		{
+          "name": "validateVersionBasePath"
+        },
+		{
+          "name": "updateOrAddBackendEndPoint"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "discardVersionChangesByApiId"
+        },
+		{
+          "name": "getVersionByVersionNoAndApiId"
+        },
+		{
+          "name": "updateVersion"
+        },
+		{
+          "name": "updateVersionRevisionLevelRespCaching"
+        },
+		{
+          "name": "deleteVersion"
+        },
+		{
+          "name": "discardRevision"
+        },
+		{
+          "name": "discardVersion"
+        },
+		{
+          "name": "updateApiRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "getVersionRequestTimeOut"
+        },
+		{
+          "name": "updateVersionRequestTimeOut"
+        },
+		{
+          "name": "getVersionResponseCache"
+        },
+		{
+          "name": "updateVersionResponseCache"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVisibilityByApiId"
+        },
+		{
+          "name": "updateVisibility"
+        },
+		{
+          "name": "getSoapFaultMessage"
+        },
+		{
+          "name": "getGraphqlFaultMessage"
+        },
+		{
+          "name": "getsoapfaultStructure"
+        },
+		{
+          "name": "getGraphqlFaultstructure"
+        },
+		{
+          "name": "getXsdJSonFaultMessage"
+        },
+		{
+          "name": "getfaultcontentType"
+        },
+		{
+          "name": "getRestfaultMesssage"
+        },
+		{
+          "name": "updateApiRestFaultStructure"
+        },
+		{
+          "name": "updateApiRestFaultContentType"
+        },
+		{
+          "name": "updateApiRestFaultMessages"
+        },
+		{
+          "name": "updateApiSoapFaultStructure"
+        },
+		{
+          "name": "updateApiGraphqlFaultStructure"
+        },
+		{
+          "name": "updateApiSoapFaultMessages"
+        },
+		{
+          "name": "updateApiGraphqlFaultMessages"
+        },
+		{
+          "name": "getSecurityPolicyType"
+        },
+		{
+          "name": "updateSecurityPolicyType"
+        },
+		{
+          "name": "getPackIcon"
+        },
+		{
+          "name": "getPackContentApis"
+        },
+		{
+          "name": "getPackContentPublishedVersionsByApiId"
+        },
+		{
+          "name": "getPackContentUnAddedResourcesByVersionId"
+        },
+		{
+          "name": "getApiPackDetailsByPackId"
+        },
+		{
+          "name": "apiPackDetailsOperationsByApiRescId"
+        },
+		{
+          "name": "apiPackDetailsOperations"
+        },
+		{
+          "name": "checkIsResourceExistsInPack"
+        },
+		{
+          "name": "checkIsResourceExistsInLastPublished"
+        },
+		{
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "getDocumentationDetails"
+        },
+		{
+          "name": "updatePkDocumentation"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "getApiPacks"
+        },
+		{
+          "name": "updatePackName"
+        },
+		{
+          "name": "updateMainPlanIdForApiPack"
+        },
+		{
+          "name": "getApipackUsagePlanDetails"
+        },
+		{
+          "name": "getApipackDetailsByApiPackRevId"
+        },
+		{
+          "name": "deleteApiPack"
+        },
+		{
+          "name": "discardPackRevisionChangesByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "updateApiPackOverview"
+        },
+		{
+          "name": "getApiPackSearchResult"
+        },
+		{
+          "name": "getVisibilityDetails"
+        },
+		{
+          "name": "updateVisibilityDetails"
+        },
+		{
+          "name": "updatePlanDocumentation"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanId"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "getPendingApprovalsForUser"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "getApprovalById"
+        },
+		{
+          "name": "validateSyncedArtifacts"
+        },
+		{
+          "name": "getAllBackendEndpoint"
+        },
+		{
+          "name": "getAllBackendEndpointByType"
+        },
+		{
+          "name": "getBackendEP"
+        },
+		{
+          "name": "addBackendEndpoint"
+        },
+		{
+          "name": "updateBackendEndpoint"
+        },
+		{
+          "name": "getDeployedBackendEndpoint"
+        },
+		{
+          "name": "deleteBackendEndPoint"
+        },
+		{
+          "name": "getAssociatedBackendEndpointsWithVersions"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "getCategoryNameByCatId"
+        },
+		{
+          "name": "getPackDataByCatId"
+        },
+		{
+          "name": "addCategory"
+        },
+		{
+          "name": "editCategoryDetails"
+        },
+		{
+          "name": "removeCategoryDetails"
+        },
+		{
+          "name": "getCategoryDataByParentId"
+        },
+		{
+          "name": "getApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportAPIsManager"
+        },
+		{
+          "name": "getNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportUsagePlan"
+        },
+		{
+          "name": "getExportApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportApprPubApiVersions"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportExportFilesAPIsManager"
+        },
+		{
+          "name": "getExportFilesNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportFilesUsagePlan"
+        },
+		{
+          "name": "getGatewayInstanceByGatewayId"
+        },
+		{
+          "name": "getGatewayInstanceByInstanceId"
+        },
+		{
+          "name": "addGatewayInstance"
+        },
+		{
+          "name": "updateGatewayInstance"
+        },
+		{
+          "name": "getGateways"
+        },
+		{
+          "name": "getGatewayByType"
+        },
+		{
+          "name": "getGateway"
+        },
+		{
+          "name": "getDeployedApis"
+        },
+		{
+          "name": "getDeployedUsagePlans"
+        },
+		{
+          "name": "addSandboxGatewayValidation"
+        },
+		{
+          "name": "addGateway"
+        },
+		{
+          "name": "updateGateway"
+        },
+		{
+          "name": "getGatewayRestFaultStructure"
+        },
+		{
+          "name": "getGatewayRestFaultContentTypeByGatewayId"
+        },
+		{
+          "name": "getGatewayRestMessageByGatewayId"
+        },
+		{
+          "name": "getGatewaySoapFaultConfig"
+        },
+		{
+          "name": "getGatewayGraphqlFaultConfig"
+        },
+		{
+          "name": "getGatewaySoapFaultStructureByGatewayId"
+        },
+		{
+          "name": "getGatewayGraphqlFaultStructureByGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayIdAndSearchText"
+        },
+		{
+          "name": "addProductionGatewayValidation"
+        },
+		{
+          "name": "addInstanceGatewayValidation"
+        },
+		{
+          "name": "getCorePropertiesDetails"
+        },
+		{
+          "name": "getAlarmPropertiesDetails"
+        },
+		{
+          "name": "updateCorePropertiesDetails"
+        },
+		{
+          "name": "updateAlarmPropertiesDetails"
+        },
+		{
+          "name": "evictApiResourceResponseCacheByResourceId"
+        },
+		{
+          "name": "deleteGatewayPropagation"
+        },
+		{
+          "name": "getGatewayPropagationIdByArtifactId"
+        },
+		{
+          "name": "updateSyncHistoryDeatils"
+        },
+		{
+          "name": "getAllGroups"
+        },
+		{
+          "name": "getGroup"
+        },
+		{
+          "name": "importApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importDmapim"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "getVersionsFromImportFile"
+        },
+		{
+          "name": "getVersionsFromImportFileAPI"
+        },
+		{
+          "name": "importAPIVersions"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importPolicyByPolicyName"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importFullApiVersion"
+        },
+		{
+          "name": "importDeltaApiVersion"
+        },
+		{
+          "name": "addDmapim"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "addOrUpdateUsagePlan"
+        },
+		{
+          "name": "getMasterConfigDetails"
+        },
+		{
+          "name": "getMasterConfigResponse"
+        },
+		{
+          "name": "getAllPolicyAndRevisionData"
+        },
+		{
+          "name": "getPlanPolicyAndRevisionData"
+        },
+		{
+          "name": "discardPolicyRevisionChangesByPolicyId"
+        },
+		{
+          "name": "getPolicyByPolicyRevisionId"
+        },
+		{
+          "name": "getDataById"
+        },
+		{
+          "name": "getImpactedPlansById"
+        },
+		{
+          "name": "getPlanByPolicyId"
+        },
+		{
+          "name": "addPolicy"
+        },
+		{
+          "name": "updatePolicyName"
+        },
+		{
+          "name": "updatePolicyRevision"
+        },
+		{
+          "name": "deletePolicy"
+        },
+		{
+          "name": "getPolicySearchResult"
+        },
+		{
+          "name": "getProHistory"
+        },
+		{
+          "name": "getAllOrganizations"
+        },
+		{
+          "name": "getOrganization"
+        },
+		{
+          "name": "addOrganization"
+        },
+		{
+          "name": "updateOrganization"
+        },
+		{
+          "name": "deleteOrganization"
+        },
+		{
+          "name": "getForumTopicsByPublisherId"
+        },
+		{
+          "name": "addTopic"
+        },
+		{
+          "name": "getTopics"
+        },
+		{
+          "name": "getAllRepliesByReplyId"
+        },
+		{
+          "name": "addReply"
+        },
+		{
+          "name": "getTopicByTopicId"
+        },
+		{
+          "name": "removeTopicByTopicId"
+        },
+		{
+          "name": "getSubOrganization"
+        },
+		{
+          "name": "updateSubOrganization"
+        },
+		{
+          "name": "deleteSubOrganization"
+        },
+		{
+          "name": "getSubOrganizationsFaultConfig"
+        },
+		{
+          "name": "updateFaultConfigBySubOrgId"
+        },
+		{
+          "name": "getGeneralSetting"
+        },
+		{
+          "name": "getSandBoxFlag"
+        },
+		{
+          "name": "getPublishedDetails"
+        },
+		{
+          "name": "getCustomOrderData"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+          "name": "getSubscriptionDetails"
+        },
+		{
+          "name": "getSubscriptionDetailsByPlanId"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getCssFile"
+        },
+		{
+          "name": "getCountSummary"
+        },
+		{
+          "name": "updateUserAccountDetails"
+        },
+		{
+          "name": "getUsers"
+        },
+		{
+          "name": "getUser"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+			"name": "updateApprovalByIdAll"
+		},
+        {
+			"name": "updateDynamicRoutingDetails"
+		},
+		{
+			"name": "getDynamicRoutingDetails"
+		},
+		{
+			"name": "getResourceCustomTransformations"
+		},
+		{
+			"name": "updateCustomResourceTransformation"
+		},
+		{
+			"name": "getVersionCustomTransformations"
+		},
+		{
+			"name": "updateApiVersionCustomTransformation"
+		},
+		{
+			"name": "getApiDetailsByVersionId"
+		},
+		{
+			"name": "getApisByApiType"
+		},
+		{
+			"name": "getApisByApiState"
+		},
+		{
+			"name": "exportExportFilesAPIPacksManager"
+		},
+		{
+			"name": "getVisibilityByGatewayId"
+		},
+		{
+			"name": "updateGatewayVisibility"
+		},
+		{
+			"name": "getVisibilityByPolicyId"
+		},
+		{
+			"name": "updateVisibilityByPolicyId"
+		}
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "AdminResources",
+	  "type": "urn:pubportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "AdminResources",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApis"
+        },
+		{
+          "name": "getApisByType"
+        },
+		{
+          "name": "addApi"
+        },
+		{
+          "name": "deleteApi"
+        },
+		{
+          "name": "updateApiName"
+        },
+		{
+          "name": "getVersionByRevision"
+        },
+		{
+          "name": "getApiGatewayUri"
+        },
+		{
+          "name": "testApi"
+        },
+		{
+          "name": "testApiAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetails"
+        },
+		{
+          "name": "getMCTLimit"
+        },
+		{
+          "name": "updateMCTLimit"
+        },
+		{
+          "name": "wsdlData"
+        },
+		{
+          "name": "updateOperations"
+        },
+		{
+          "name": "wsdlOperationsUpdation"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdl"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdlURL"
+        },
+		{
+          "name": "updateWsdlOperations"
+        },
+		{
+          "name": "validateBeforedeletingOperations"
+        },
+		{
+          "name": "deleteCopiedOperationOnClickCancel"
+        },
+		{
+          "name": "getExposurebasepathFromWsdl"
+        },
+		{
+          "name": "getExposureBasePathFromWSDLURL"
+        },
+		{
+          "name": "getOverviewByApiId"
+        },
+		{
+          "name": "updateOverview"
+        },
+		{
+          "name": "getOverviewAndLatestVersionByApiId"
+        },
+		{
+          "name": "getExposureBasePathFromSwaggerURLRest"
+        },
+		{
+          "name": "getSwaggerDataFromURL"
+        },
+		{
+          "name": "validateExposureBasePath"
+        },
+		{
+          "name": "resourceOperations"
+        },
+		{
+          "name": "getResources"
+        },
+		{
+          "name": "getResource"
+        },
+		{
+          "name": "checkIsResourceExists"
+        },
+		{
+          "name": "swaggerData"
+        },
+		{
+          "name": "getMasterSwaggerFromZip"
+        },
+		{
+          "name": "buildSwaggerFromMaster"
+        },
+		{
+          "name": "removeSwaggerFile"
+        },
+		{
+          "name": "getResourceListFromSwagger"
+        },
+		{
+          "name": "getResourceListFromGraphQL"
+        },
+		{
+          "name": "updateSwaggerResources"
+        },
+		{
+          "name": "updateResourceLevelRespCaching"
+        },
+		{
+          "name": "buildSwaggerFromMasterFile"
+        },
+		{
+          "name": "validateBeforedeleting"
+        },
+		{
+          "name": "downloadResourceFile"
+        },
+		{
+          "name": "getExposurebasepathFromSwagger"
+        },
+		{
+          "name": "deleteCopiedResourcesOnClickCancel"
+        },
+		{
+          "name": "getMaskingResourceTransformations"
+        },
+		{
+          "name": "updateResourceMasking"
+        },
+		{
+          "name": "getResourceTransformations"
+        },
+		{
+          "name": "updateResourceTransformation"
+        },
+		{
+          "name": "updateSchemaValidations"
+        },
+		{
+          "name": "GenericSchemaValidation"
+        },
+		{
+          "name": "getResourceSchemaXsd"
+        },
+		{
+          "name": "updateResourceSchemaXsd"
+        },
+		{
+          "name": "getApiSearchResult"
+        },
+		{
+          "name": "updateSecurityPolicy"
+        },
+		{
+          "name": "getBackendEndpointsByApiVersionId"
+        },
+		{
+          "name": "validateVersionBasePath"
+        },
+		{
+          "name": "updateOrAddBackendEndPoint"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "discardVersionChangesByApiId"
+        },
+		{
+          "name": "getVersionByVersionNoAndApiId"
+        },
+		{
+          "name": "updateVersion"
+        },
+		{
+          "name": "updateVersionRevisionLevelRespCaching"
+        },
+		{
+          "name": "deleteVersion"
+        },
+		{
+          "name": "discardRevision"
+        },
+		{
+          "name": "discardVersion"
+        },
+		{
+          "name": "updateApiRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "getVersionRequestTimeOut"
+        },
+		{
+          "name": "updateVersionRequestTimeOut"
+        },
+		{
+          "name": "getVersionResponseCache"
+        },
+		{
+          "name": "updateVersionResponseCache"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVisibilityByApiId"
+        },
+		{
+          "name": "updateVisibility"
+        },
+		{
+          "name": "getSoapFaultMessage"
+        },
+		{
+          "name": "getGraphqlFaultMessage"
+        },
+		{
+          "name": "getsoapfaultStructure"
+        },
+		{
+          "name": "getGraphqlFaultstructure"
+        },
+		{
+          "name": "getXsdJSonFaultMessage"
+        },
+		{
+          "name": "getfaultcontentType"
+        },
+		{
+          "name": "getRestfaultMesssage"
+        },
+		{
+          "name": "updateApiRestFaultStructure"
+        },
+		{
+          "name": "updateApiRestFaultContentType"
+        },
+		{
+          "name": "updateApiRestFaultMessages"
+        },
+		{
+          "name": "updateApiSoapFaultStructure"
+        },
+		{
+          "name": "updateApiGraphqlFaultStructure"
+        },
+		{
+          "name": "updateApiSoapFaultMessages"
+        },
+		{
+          "name": "updateApiGraphqlFaultMessages"
+        },
+		{
+          "name": "getSecurityPolicyType"
+        },
+		{
+          "name": "updateSecurityPolicyType"
+        },
+		{
+          "name": "updateBranding"
+        },
+		{
+          "name": "getBranding"
+        },
+		{
+          "name": "getPackIcon"
+        },
+		{
+          "name": "getPackContentApis"
+        },
+		{
+          "name": "getPackContentPublishedVersionsByApiId"
+        },
+		{
+          "name": "getPackContentUnAddedResourcesByVersionId"
+        },
+		{
+          "name": "getApiPackDetailsByPackId"
+        },
+		{
+          "name": "apiPackDetailsOperationsByApiRescId"
+        },
+		{
+          "name": "apiPackDetailsOperations"
+        },
+		{
+          "name": "checkIsResourceExistsInPack"
+        },
+		{
+          "name": "checkIsResourceExistsInLastPublished"
+        },
+		{
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "updateDocumentation"
+        },
+		{
+          "name": "getDocumentationDetails"
+        },
+		{
+          "name": "updatePkDocumentation"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "getApiPacks"
+        },
+		{
+          "name": "updatePackName"
+        },
+		{
+          "name": "updateMainPlanIdForApiPack"
+        },
+		{
+          "name": "getApipackUsagePlanDetails"
+        },
+		{
+          "name": "getApipackDetailsByApiPackRevId"
+        },
+		{
+          "name": "deleteApiPack"
+        },
+		{
+          "name": "discardPackRevisionChangesByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "updateApiPackOverview"
+        },
+		{
+          "name": "getApiPackSearchResult"
+        },
+		{
+          "name": "getVisibilityDetails"
+        },
+		{
+          "name": "updateVisibilityDetails"
+        },
+		{
+          "name": "updatePlanDocumentation"
+        },
+		{
+          "name": "updateOrAddUsagePlanEndPoint"
+        },
+		{
+          "name": "getEndPoint"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "updatePricingDetails"
+        },
+		{
+          "name": "updateUsagePlan"
+        },
+		{
+          "name": "updateUsagePlanName"
+        },
+		{
+          "name": "getUsagePlan"
+        },
+		{
+          "name": "getUsagePlansByPackId"
+        },
+		{
+          "name": "getUsagePlanPoliciesByPlanId"
+        },
+		{
+          "name": "updateUsagePlanOrder"
+        },
+		{
+          "name": "deletePlan"
+        },
+		{
+          "name": "getUsagePlanSummary"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanId"
+        },
+		{
+          "name": "getPlanNonMonitisedLimitData"
+        },
+		{
+          "name": "updatePlanNonMonitisedLimitData"
+        },
+		{
+          "name": "getUsagePlanStates"
+        },
+		{
+          "name": "updatePlanLevelRestFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelRestFaultcontentType"
+        },
+		{
+          "name": "updatePlanLevelRestFaultmessages"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultMessages"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultMessages"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayByRevId"
+        },
+		{
+          "name": "getLatestPlanRevMappedGatewayList"
+        },
+		{
+          "name": "getLatestPublishedPlanMappedGatewayList"
+        },
+		{
+          "name": "updateUsagePlanAuthentication"
+        },
+		{
+          "name": "getUsagePlanAuthentication"
+        },
+		{
+          "name": "getPlanGatewayUri"
+        },
+		{
+          "name": "testPlan"
+        },
+		{
+          "name": "testPlanAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetailsForPack"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanAndVerisonId"
+        },
+		{
+          "name": "getUsagePlanVersionSummary"
+        },
+		{
+          "name": "getUsagePlanPricingAndDocumentation"
+        },
+		{
+          "name": "getUsagePlanDetailsForApproval"
+        },
+		{
+          "name": "usagePlanOperations"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "getUsagePlanResourcesByUsagePlanId"
+        },
+		{
+          "name": "getUsagePlanResourcePoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanResourcePolicies"
+        },
+		{
+          "name": "getUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "getPlanRestFaultStructure"
+        },
+		{
+          "name": "getPlanRestFaultContentType"
+        },
+		{
+          "name": "getPlanRestFaultMessage"
+        },
+		{
+          "name": "getPlanSoapFaultStructure"
+        },
+		{
+          "name": "getPlanGraphqlFaultStructure"
+        },
+		{
+          "name": "getPlanSoapFaultMessage"
+        },
+		{
+          "name": "getPlanGraphqlFaultMessage"
+        },
+		{
+          "name": "updateConsumerVisibilty"
+        },
+		{
+          "name": "getConsumerVisibiltyByUsagePlanId"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "getVersionByVersionId"
+        },
+		{
+          "name": "deletePlanVersion"
+        },
+		{
+          "name": "getUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "addUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "deleteUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "getDevOrganization"
+        },
+		{
+          "name": "getUsagePlanDevOrgGatewayDetails"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGatewayFromGateway"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "getDevNameBySubOrgId"
+        },
+		{
+          "name": "updateApplicationStatus"
+        },
+		{
+          "name": "getPendingApprovalsForUser"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "getApprovals"
+        },
+		{
+          "name": "getApprovalById"
+        },
+		{
+          "name": "getPendingApprovals"
+        },
+		{
+          "name": "updateApprovalById"
+        },
+		{
+          "name": "validateSyncedArtifacts"
+        },
+		{
+          "name": "getAllBackendEndpoint"
+        },
+		{
+          "name": "getAllBackendEndpointByType"
+        },
+		{
+          "name": "getBackendEP"
+        },
+		{
+          "name": "addBackendEndpoint"
+        },
+		{
+          "name": "updateBackendEndpoint"
+        },
+		{
+          "name": "getDeployedBackendEndpoint"
+        },
+		{
+          "name": "deleteBackendEndPoint"
+        },
+		{
+          "name": "getAssociatedBackendEndpointsWithVersions"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "getCategoryNameByCatId"
+        },
+		{
+          "name": "getPackDataByCatId"
+        },
+		{
+          "name": "addCategory"
+        },
+		{
+          "name": "editCategoryDetails"
+        },
+		{
+          "name": "removeCategoryDetails"
+        },
+		{
+          "name": "getCategoryDataByParentId"
+        },
+		{
+          "name": "getApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportThapiManager"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportAPIsManager"
+        },
+		{
+          "name": "getNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportUsagePlan"
+        },
+		{
+          "name": "getApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportAPIsManager"
+        },
+		{
+          "name": "getNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportUsagePlan"
+        },
+		{
+          "name": "getExportApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportApprPubApiVersions"
+        },
+		{
+          "name": "exportThapiManager"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportExportFilesAPIsManager"
+        },
+		{
+          "name": "getExportFilesNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportFilesUsagePlan"
+        },
+		{
+          "name": "getGatewayInstanceByGatewayId"
+        },
+		{
+          "name": "getGatewayInstanceByInstanceId"
+        },
+		{
+          "name": "addGatewayInstance"
+        },
+		{
+          "name": "updateGatewayInstance"
+        },
+		{
+          "name": "deleteGatewayInstance"
+        },
+		{
+          "name": "getGateways"
+        },
+		{
+          "name": "getGatewayByType"
+        },
+		{
+          "name": "getGateway"
+        },
+		{
+          "name": "getDeployedApis"
+        },
+		{
+          "name": "getDeployedUsagePlans"
+        },
+		{
+          "name": "addSandboxGatewayValidation"
+        },
+		{
+          "name": "addGateway"
+        },
+		{
+          "name": "updateGateway"
+        },
+		{
+          "name": "deleteGateway"
+        },
+		{
+          "name": "getGatewayRestFaultStructure"
+        },
+		{
+          "name": "getGatewayRestFaultContentTypeByGatewayId"
+        },
+		{
+          "name": "getGatewayRestMessageByGatewayId"
+        },
+		{
+          "name": "getGatewaySoapFaultConfig"
+        },
+		{
+          "name": "getGatewayGraphqlFaultConfig"
+        },
+		{
+          "name": "getGatewaySoapFaultStructureByGatewayId"
+        },
+		{
+          "name": "getGatewayGraphqlFaultStructureByGatewayId"
+        },
+		{
+          "name": "updateRestFaultStructureByGatewayId"
+        },
+		{
+          "name": "updaterestFaultContentType"
+        },
+		{
+          "name": "updaterestFaultMessage"
+        },
+		{
+          "name": "updateSoapFaultconfigByGatewayId"
+        },
+		{
+          "name": "updateGraphqlFaultconfigByGatewayId"
+        },
+		{
+          "name": "updateGraphqlFaultMessageByGatewayId"
+        },
+		{
+          "name": "updateSoapFaultMessageByGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayId"
+        },
+		{
+          "name": "mapGatewayToArtifactByArtifactId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayIdAndSearchText"
+        },
+		{
+          "name": "getRePropagationAPIList"
+        },
+		{
+          "name": "rePropagateApis"
+        },
+		{
+          "name": "getRePropagationUsagePlanList"
+        },
+		{
+          "name": "rePropagateUsagePlans"
+        },
+		{
+          "name": "getRePropagationUsagePoliciesList"
+        },
+		{
+          "name": "rePropagateUsagePolicies"
+        },
+		{
+          "name": "getRePropagationSubscriptionList"
+        },
+		{
+          "name": "rePropagateSubscriptions"
+        },
+		{
+          "name": "getRePropagationBackendEndpointList"
+        },
+		{
+          "name": "rePropagateBackendEndpoints"
+        },
+		{
+          "name": "addProductionGatewayValidation"
+        },
+		{
+          "name": "addInstanceGatewayValidation"
+        },
+		{
+          "name": "getCorePropertiesDetails"
+        },
+		{
+          "name": "getAlarmPropertiesDetails"
+        },
+		{
+          "name": "updateCorePropertiesDetails"
+        },
+		{
+          "name": "updateAlarmPropertiesDetails"
+        },
+		{
+          "name": "getGatewayPropagationsBySubOrgId"
+        },
+		{
+          "name": "getMongoBackUpDbs"
+        },
+		{
+          "name": "updateMongoWithBkupData"
+        },
+		{
+          "name": "validateSynchronizationArtifacts"
+        },
+		{
+          "name": "updatePropagationDetailsInAdminByArtifactId"
+        },
+		{
+          "name": "evictApiResourceResponseCacheByResourceId"
+        },
+		{
+          "name": "addGatewayPropagationByArtifactId"
+        },
+		{
+          "name": "getPlanStatusByPropId"
+        },
+		{
+          "name": "updateSubscriptionetailsInAdmin"
+        },
+		{
+          "name": "deleteGatewayPropagation"
+        },
+		{
+          "name": "getGatewayPropagationIdByArtifactId"
+        },
+		{
+          "name": "getLatestPublishedRevisionsBySubOrgId"
+        },
+		{
+          "name": "dropMongoDbBackupCollections"
+        },
+		{
+          "name": "getLatestPublishedApiRevisionsBySubOrgId"
+        },
+		{
+          "name": "getLatestPublishedPlanRevisionsBySubOrgId"
+        },
+		{
+          "name": "getLatestPublishedArtifactsBySubOrgId"
+        },
+		{
+          "name": "updateArtifactsBySubOrgIdForHistoryRollback"
+        },
+		{
+          "name": "updateArtifactsBySubOrgIdForRollback"
+        },
+		{
+          "name": "updateArtifactsBySubOrgIdForRollbackInMysql"
+        },
+		{
+          "name": "updateSyncHistoryDeatils"
+        },
+		{
+          "name": "updateArtifactsBySubOrgIdForRollbackInMysqlForHistory"
+        },
+		{
+          "name": "getAllGroups"
+        },
+		{
+          "name": "getGroupsByType"
+        },
+		{
+          "name": "getGroup"
+        },
+		{
+          "name": "addGroup"
+        },
+		{
+          "name": "updateGroup"
+        },
+		{
+          "name": "deleteGroup"
+        },
+		{
+          "name": "importApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importDmapim"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "getVersionsFromImportFile"
+        },
+		{
+          "name": "getVersionsFromImportFileAPI"
+        },
+		{
+          "name": "importAPIVersions"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importPolicyByPolicyName"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importFullApiVersion"
+        },
+		{
+          "name": "importDeltaApiVersion"
+        },
+		{
+          "name": "addDmapim"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "addOrUpdateUsagePlan"
+        },
+		{
+          "name": "isLdapEnabled"
+        },
+		{
+          "name": "getMasterConfigDetails"
+        },
+		{
+          "name": "getMasterConfigResponse"
+        },
+		{
+          "name": "getAllPolicyAndRevisionData"
+        },
+		{
+          "name": "getPlanPolicyAndRevisionData"
+        },
+		{
+          "name": "discardPolicyRevisionChangesByPolicyId"
+        },
+		{
+          "name": "getPolicyByPolicyRevisionId"
+        },
+		{
+          "name": "getDataById"
+        },
+		{
+          "name": "getImpactedPlansById"
+        },
+		{
+          "name": "getPlanByPolicyId"
+        },
+		{
+          "name": "addPolicy"
+        },
+		{
+          "name": "updatePolicyName"
+        },
+		{
+          "name": "updatePolicyRevision"
+        },
+		{
+          "name": "deletePolicy"
+        },
+		{
+          "name": "getPolicySearchResult"
+        },
+		{
+          "name": "getProHistoryDetailsByGatewayPropSubOrgId"
+        },
+		{
+          "name": "getProHistoryDetailsByGatewayPropHistoryId"
+        },
+		{
+          "name": "addPropogationHistory"
+        },
+		{
+          "name": "getProHistory"
+        },
+		{
+          "name": "getFilenamesList"
+        },
+		{
+          "name": "getFileByParentId"
+        },
+		{
+          "name": "updateFileContentManagement"
+        },
+		{
+          "name": "addContentFolder"
+        },
+		{
+          "name": "deleteContentFolder"
+        },
+		{
+          "name": "deleteContentFile"
+        },
+		{
+          "name": "getAllOrganizations"
+        },
+		{
+          "name": "getOrganization"
+        },
+		{
+          "name": "addOrganization"
+        },
+		{
+          "name": "updateOrganization"
+        },
+		{
+          "name": "deleteOrganization"
+        },
+		{
+          "name": "getForumTopicsByPublisherId"
+        },
+		{
+          "name": "addTopic"
+        },
+		{
+          "name": "getTopics"
+        },
+		{
+          "name": "addReply"
+        },
+		{
+          "name": "getTopicByTopicId"
+        },
+		{
+          "name": "removeTopicByTopicId"
+        },
+		{
+          "name": "addSubOrganization"
+        },
+		{
+          "name": "getSubOrganization"
+        },
+		{
+          "name": "getLinkedSubOrganizationsByDomainName"
+        },
+		{
+          "name": "updateSubOrganization"
+        },
+		{
+          "name": "deleteSubOrganization"
+        },
+		{
+          "name": "getSubOrganizationsFaultConfig"
+        },
+		{
+          "name": "updateFaultConfigBySubOrgId"
+        },
+		{
+          "name": "updateSoapFaultMessageBySubOrgId"
+        },
+		{
+          "name": "updateGraphqlFaultMessageBySubOrgId"
+        },
+		{
+          "name": "updateEndpointNameAndSandboxFlag"
+        },
+		{
+          "name": "getGeneralSetting"
+        },
+		{
+          "name": "updateDefaultMsgBySubOrg"
+        },
+		{
+          "name": "updateGraphqlDefaultMsgBySubOrg"
+        },
+		{
+          "name": "getDefaultMessageBySubOrg"
+        },
+		{
+          "name": "getSoapFaultStructureBySubOrg"
+        },
+		{
+          "name": "getGraphqlDefaultMessageBySubOrg"
+        },
+		{
+          "name": "getGraphqlFaultStructureBySubOrg"
+        },
+		{
+          "name": "getSandBoxFlag"
+        },
+		{
+          "name": "getPublishedDetails"
+        },
+		{
+          "name": "getLinkedSubOrganizationsBySubOrgIdForOauth"
+        },
+		{
+          "name": "getDefaultReSTMessageBySubOrg"
+        },
+		{
+          "name": "getDefaultReSTFaultStructurBySubOrg"
+        },
+		{
+          "name": "getDefaultReSTFaultContentTypeBySubOrg"
+        },
+		{
+          "name": "updateReSTDefaultMsgBySubOrg"
+        },
+		{
+          "name": "updateRestDefaultFaultContentType"
+        },
+		{
+          "name": "getCustomOrderData"
+        },
+		{
+          "name": "getDevSubOrganizations"
+        },
+		{
+          "name": "getSuborgpropertiesBySubOrg"
+        },
+		{
+          "name": "updateSuborgPropertyDetails"
+        },
+		{
+          "name": "getSubscriptionsByPubId"
+        },
+		{
+          "name": "getSubscriptionDetailsByPubId"
+        },
+		{
+          "name": "getSubscriptionsByPublishwerId"
+        },
+		{
+          "name": "getPacksByDevId"
+        },
+		{
+          "name": "getApiPackUsagePlansByPackId"
+        },
+		{
+          "name": "getSubscriberSearchResult"
+        },
+		{
+          "name": "getUsagePlanVersionsByPlanId"
+        },
+		{
+          "name": "updateSubscriptionDetail"
+        },
+		{
+          "name": "addSubscription"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateSubscriptionDetails"
+        },
+		{
+          "name": "updateSubscriberPlanAndResourceLevelPolicies"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultStructureByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultContentType"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultMessage"
+        },
+		{
+          "name": "getSubscriberPrivacyByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberIpListByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberSecuritiesPoliciesByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourcePolicies"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "getThemeBySubOrgId"
+        },
+		{
+          "name": "updateTheme"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getCssFile"
+        },
+		{
+          "name": "getCountSummary"
+        },
+		{
+          "name": "updateUserAccountDetails"
+        },
+		{
+          "name": "getProperty"
+        },
+		{
+          "name": "AnalyticsData"
+        },
+		{
+          "name": "getUsers"
+        },
+		{
+          "name": "getUsersByType"
+        },
+		{
+          "name": "getUser"
+        },
+		{
+          "name": "addUser"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "deleteUser"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "ResendUserCredentials"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "getSubscriptionDetails"
+        },
+		{
+          "name": "getSubscriptionDetailsByPlanId"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+			"name": "updateApprovalByIdAll"
+		},
+		{
+			"name": "updateDynamicRoutingDetails"
+		},
+		{
+			"name": "getDynamicRoutingDetails"
+		},
+		{
+			"name": "getSuborgPaymentGatewayDetailsBySubOrg"
+		},
+		{
+			"name": "updatePaymentGatewayDetails"
+		},
+		{
+			"name": "addPaymentGatewayDetails"
+		},
+		{
+			"name": "deletePaymentGatewayDetails"
+		},
+		{
+			"name": "deactivatePaymentGateway"
+		},
+		{
+			"name": "activatePaymentGateway"
+		},
+		{
+			"name": "getResourceCustomTransformations"
+		},
+		{
+			"name": "updateCustomResourceTransformation"
+		},
+		{
+			"name": "getVersionCustomTransformations"
+		},
+		{
+			"name": "updateApiVersionCustomTransformation"
+		},
+		{
+			"name": "getResourceCustomTransformations"
+		},
+		{
+			"name": "updateCustomResourceTransformation"
+		},
+		{
+			"name": "getVersionCustomTransformations"
+		},
+		{
+			"name": "updateApiVersionCustomTransformation"
+		},
+		{
+			"name": "getApiDetailsByVersionId"
+		},
+		{
+			"name": "updatePropagationDetailsInAdmin"
+		},
+		{
+			"name": "getApisByApiType"
+		},
+		{
+			"name": "getApisByApiState"
+		},
+		{
+			"name": "isLdapEnabledFlag"
+		},
+		{
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		},
+		{
+			"name": "paymentgatewaystatus"
+		},
+		{
+			"name": "exportExportFilesThapiManager"
+    },
+		{	
+        "name": "getAllRepliesByReplyId"
+    },
+				
+		{
+			"name": "exportExportFilesAPIPacksManager"
+		},
+		{
+			"name": "getVisibilityByGatewayId"
+		},
+		{
+			"name": "updateGatewayVisibility"
+		},
+		{
+			"name": "getVisibilityByPolicyId"
+		},
+		{
+			"name": "updateVisibilityByPolicyId"
+		}
+      ],
+      "icon_uri": ""
+    },
+	{
+      "name": "BusinessResources",
+	  "type": "urn:pubportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "BusinessResources",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApis"
+        },
+		{
+          "name": "getApisByType"
+        },
+		{
+          "name": "addApi"
+        },
+		{
+          "name": "deleteApi"
+        },
+		{
+          "name": "updateApiName"
+        },
+		{
+          "name": "getVersionByRevision"
+        },
+		{
+          "name": "getApiGatewayUri"
+        },
+		{
+          "name": "testApi"
+        },
+		{
+          "name": "testApiAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetails"
+        },
+		{
+          "name": "getMCTLimit"
+        },
+		{
+          "name": "updateMCTLimit"
+        },
+		{
+          "name": "wsdlData"
+        },
+		{
+          "name": "updateOperations"
+        },
+		{
+          "name": "wsdlOperationsUpdation"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdl"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdlURL"
+        },
+		{
+          "name": "updateWsdlOperations"
+        },
+		{
+          "name": "validateBeforedeletingOperations"
+        },
+		{
+          "name": "deleteCopiedOperationOnClickCancel"
+        },
+		{
+          "name": "getExposurebasepathFromWsdl"
+        },
+		{
+          "name": "getExposureBasePathFromWSDLURL"
+        },
+		{
+          "name": "getOverviewByApiId"
+        },
+		{
+          "name": "updateOverview"
+        },
+		{
+          "name": "getOverviewAndLatestVersionByApiId"
+        },
+		{
+          "name": "getExposureBasePathFromSwaggerURLRest"
+        },
+		{
+          "name": "getSwaggerDataFromURL"
+        },
+		{
+          "name": "validateExposureBasePath"
+        },
+		{
+          "name": "resourceOperations"
+        },
+		{
+          "name": "getResources"
+        },
+		{
+          "name": "getResource"
+        },
+		{
+          "name": "checkIsResourceExists"
+        },
+		{
+          "name": "swaggerData"
+        },
+		{
+          "name": "getMasterSwaggerFromZip"
+        },
+		{
+          "name": "buildSwaggerFromMaster"
+        },
+		{
+          "name": "removeSwaggerFile"
+        },
+		{
+          "name": "getResourceListFromSwagger"
+        },
+		{
+          "name": "getResourceListFromGraphQL"
+        },
+		{
+          "name": "updateSwaggerResources"
+        },
+		{
+          "name": "updateResourceLevelRespCaching"
+        },
+		{
+          "name": "buildSwaggerFromMasterFile"
+        },
+		{
+          "name": "validateBeforedeleting"
+        },
+		{
+          "name": "downloadResourceFile"
+        },
+		{
+          "name": "getExposurebasepathFromSwagger"
+        },
+		{
+          "name": "deleteCopiedResourcesOnClickCancel"
+        },
+		{
+          "name": "getMaskingResourceTransformations"
+        },
+		{
+          "name": "updateResourceMasking"
+        },
+		{
+          "name": "getResourceTransformations"
+        },
+		{
+          "name": "updateResourceTransformation"
+        },
+		{
+          "name": "updateSchemaValidations"
+        },
+		{
+          "name": "GenericSchemaValidation"
+        },
+		{
+          "name": "getResourceSchemaXsd"
+        },
+		{
+          "name": "updateResourceSchemaXsd"
+        },
+		{
+          "name": "getApiSearchResult"
+        },
+		{
+          "name": "updateSecurityPolicy"
+        },
+		{
+          "name": "getBackendEndpointsByApiVersionId"
+        },
+		{
+          "name": "validateVersionBasePath"
+        },
+		{
+          "name": "updateOrAddBackendEndPoint"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "discardVersionChangesByApiId"
+        },
+		{
+          "name": "getVersionByVersionNoAndApiId"
+        },
+		{
+          "name": "updateVersion"
+        },
+		{
+          "name": "updateVersionRevisionLevelRespCaching"
+        },
+		{
+          "name": "deleteVersion"
+        },
+		{
+          "name": "discardRevision"
+        },
+		{
+          "name": "discardVersion"
+        },
+		{
+          "name": "updateApiRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "getVersionRequestTimeOut"
+        },
+		{
+          "name": "updateVersionRequestTimeOut"
+        },
+		{
+          "name": "getVersionResponseCache"
+        },
+		{
+          "name": "updateVersionResponseCache"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVisibilityByApiId"
+        },
+		{
+          "name": "updateVisibility"
+        },
+		{
+          "name": "getSoapFaultMessage"
+        },
+		{
+          "name": "getGraphqlFaultMessage"
+        },
+		{
+          "name": "getsoapfaultStructure"
+        },
+		{
+          "name": "getGraphqlFaultstructure"
+        },
+		{
+          "name": "getXsdJSonFaultMessage"
+        },
+		{
+          "name": "getfaultcontentType"
+        },
+		{
+          "name": "getRestfaultMesssage"
+        },
+		{
+          "name": "updateApiRestFaultStructure"
+        },
+		{
+          "name": "updateApiRestFaultContentType"
+        },
+		{
+          "name": "updateApiRestFaultMessages"
+        },
+		{
+          "name": "updateApiSoapFaultStructure"
+        },
+		{
+          "name": "updateApiGraphqlFaultStructure"
+        },
+		{
+          "name": "updateApiSoapFaultMessages"
+        },
+		{
+          "name": "updateApiGraphqlFaultMessages"
+        },
+		{
+          "name": "getSecurityPolicyType"
+        },
+		{
+          "name": "updateSecurityPolicyType"
+        },
+		{
+          "name": "updateBranding"
+        },
+		{
+          "name": "getBranding"
+        },
+		{
+          "name": "getPackIcon"
+        },
+		{
+          "name": "getPackContentApis"
+        },
+		{
+          "name": "getPackContentPublishedVersionsByApiId"
+        },
+		{
+          "name": "getPackContentUnAddedResourcesByVersionId"
+        },
+		{
+          "name": "getApiPackDetailsByPackId"
+        },
+		{
+          "name": "apiPackDetailsOperationsByApiRescId"
+        },
+		{
+          "name": "apiPackDetailsOperations"
+        },
+		{
+          "name": "checkIsResourceExistsInPack"
+        },
+		{
+          "name": "checkIsResourceExistsInLastPublished"
+        },
+		{
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "updateDocumentation"
+        },
+		{
+          "name": "getDocumentationDetails"
+        },
+		{
+          "name": "updatePkDocumentation"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "getApiPacks"
+        },
+		{
+          "name": "updatePackName"
+        },
+		{
+          "name": "updateMainPlanIdForApiPack"
+        },
+		{
+          "name": "getApipackUsagePlanDetails"
+        },
+		{
+          "name": "getApipackDetailsByApiPackRevId"
+        },
+		{
+          "name": "deleteApiPack"
+        },
+		{
+          "name": "discardPackRevisionChangesByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "updateApiPackOverview"
+        },
+		{
+          "name": "getApiPackSearchResult"
+        },
+		{
+          "name": "getVisibilityDetails"
+        },
+		{
+          "name": "updateVisibilityDetails"
+        },
+		{
+          "name": "updatePlanDocumentation"
+        },
+		{
+          "name": "updateOrAddUsagePlanEndPoint"
+        },
+		{
+          "name": "getEndPoint"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "updatePricingDetails"
+        },
+		{
+          "name": "updateUsagePlan"
+        },
+		{
+          "name": "updateUsagePlanName"
+        },
+		{
+          "name": "getUsagePlan"
+        },
+		{
+          "name": "getUsagePlansByPackId"
+        },
+		{
+          "name": "getUsagePlanPoliciesByPlanId"
+        },
+		{
+          "name": "updateUsagePlanOrder"
+        },
+		{
+          "name": "deletePlan"
+        },
+		{
+          "name": "getUsagePlanSummary"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanId"
+        },
+		{
+          "name": "getPlanNonMonitisedLimitData"
+        },
+		{
+          "name": "updatePlanNonMonitisedLimitData"
+        },
+		{
+          "name": "getUsagePlanStates"
+        },
+		{
+          "name": "updatePlanLevelRestFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelRestFaultcontentType"
+        },
+		{
+          "name": "updatePlanLevelRestFaultmessages"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultMessages"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultMessages"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayByRevId"
+        },
+		{
+          "name": "getLatestPlanRevMappedGatewayList"
+        },
+		{
+          "name": "getLatestPublishedPlanMappedGatewayList"
+        },
+		{
+          "name": "updateUsagePlanAuthentication"
+        },
+		{
+          "name": "getUsagePlanAuthentication"
+        },
+		{
+          "name": "getPlanGatewayUri"
+        },
+		{
+          "name": "testPlan"
+        },
+		{
+          "name": "testPlanAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetailsForPack"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanAndVerisonId"
+        },
+		{
+          "name": "getUsagePlanVersionSummary"
+        },
+		{
+          "name": "getUsagePlanPricingAndDocumentation"
+        },
+		{
+          "name": "usagePlanOperations"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "getUsagePlanResourcesByUsagePlanId"
+        },
+		{
+          "name": "getUsagePlanResourcePoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanResourcePolicies"
+        },
+		{
+          "name": "getUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "getPlanRestFaultStructure"
+        },
+		{
+          "name": "getPlanRestFaultContentType"
+        },
+		{
+          "name": "getPlanRestFaultMessage"
+        },
+		{
+          "name": "getPlanSoapFaultStructure"
+        },
+		{
+          "name": "getPlanGraphqlFaultStructure"
+        },
+		{
+          "name": "getPlanSoapFaultMessage"
+        },
+		{
+          "name": "getPlanGraphqlFaultMessage"
+        },
+		{
+          "name": "updateConsumerVisibilty"
+        },
+		{
+          "name": "getConsumerVisibiltyByUsagePlanId"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "getVersionByVersionId"
+        },
+		{
+          "name": "deletePlanVersion"
+        },
+		{
+          "name": "getUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "addUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "deleteUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "getDevOrganization"
+        },
+		{
+          "name": "getUsagePlanDevOrgGatewayDetails"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGatewayFromGateway"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "getDevNameBySubOrgId"
+        },
+		{
+          "name": "getPendingApprovalsForUser"
+        },
+		{
+          "name": "getApprovalById"
+        },
+		{
+          "name": "getPendingApprovals"
+        },
+		{
+          "name": "validateSyncedArtifacts"
+        },
+		{
+          "name": "getAllBackendEndpoint"
+        },
+		{
+          "name": "getAllBackendEndpointByType"
+        },
+		{
+          "name": "getBackendEP"
+        },
+		{
+          "name": "addBackendEndpoint"
+        },
+		{
+          "name": "updateBackendEndpoint"
+        },
+		{
+          "name": "getDeployedBackendEndpoint"
+        },
+		{
+          "name": "deleteBackendEndPoint"
+        },
+		{
+          "name": "getAssociatedBackendEndpointsWithVersions"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "getCategoryNameByCatId"
+        },
+		{
+          "name": "getPackDataByCatId"
+        },
+		{
+          "name": "addCategory"
+        },
+		{
+          "name": "editCategoryDetails"
+        },
+		{
+          "name": "removeCategoryDetails"
+        },
+		{
+          "name": "getCategoryDataByParentId"
+        },
+		{
+          "name": "getApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportAPIsManager"
+        },
+		{
+          "name": "getNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportUsagePlan"
+        },
+		{
+          "name": "getExportApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportApprPubApiVersions"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportExportFilesAPIsManager"
+        },
+		{
+          "name": "getExportFilesNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportFilesUsagePlan"
+        },
+		{
+          "name": "getGatewayInstanceByGatewayId"
+        },
+		{
+          "name": "getGatewayInstanceByInstanceId"
+        },
+		{
+          "name": "addGatewayInstance"
+        },
+		{
+          "name": "updateGatewayInstance"
+        },
+		{
+          "name": "getGateways"
+        },
+		{
+          "name": "getGatewayByType"
+        },
+		{
+          "name": "getGateway"
+        },
+		{
+          "name": "getDeployedApis"
+        },
+		{
+          "name": "getDeployedUsagePlans"
+        },
+		{
+          "name": "addSandboxGatewayValidation"
+        },
+		{
+          "name": "addGateway"
+        },
+		{
+          "name": "updateGateway"
+        },
+		{
+          "name": "getGatewayRestFaultStructure"
+        },
+		{
+          "name": "getGatewayRestFaultContentTypeByGatewayId"
+        },
+		{
+          "name": "getGatewayRestMessageByGatewayId"
+        },
+		{
+          "name": "getGatewaySoapFaultConfig"
+        },
+		{
+          "name": "getGatewayGraphqlFaultConfig"
+        },
+		{
+          "name": "getGatewaySoapFaultStructureByGatewayId"
+        },
+		{
+          "name": "getGatewayGraphqlFaultStructureByGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayIdAndSearchText"
+        },
+		{
+          "name": "addProductionGatewayValidation"
+        },
+		{
+          "name": "addInstanceGatewayValidation"
+        },
+		{
+          "name": "getCorePropertiesDetails"
+        },
+		{
+          "name": "getAlarmPropertiesDetails"
+        },
+		{
+          "name": "updateCorePropertiesDetails"
+        },
+		{
+          "name": "updateAlarmPropertiesDetails"
+        },
+		{
+          "name": "evictApiResourceResponseCacheByResourceId"
+        },
+		{
+          "name": "addGatewayPropagationByArtifactId"
+        },
+		{
+          "name": "getPlanStatusByPropId"
+        },
+		{
+          "name": "updateSubscriptionetailsInAdmin"
+        },
+		{
+          "name": "deleteGatewayPropagation"
+        },
+		{
+          "name": "getGatewayPropagationIdByArtifactId"
+        },
+		{
+          "name": "updateSyncHistoryDeatils"
+        },
+		{
+          "name": "getAllGroups"
+        },
+		{
+          "name": "getGroupsByType"
+        },
+		{
+          "name": "getGroup"
+        },
+		{
+          "name": "addGroup"
+        },
+		{
+          "name": "updateGroup"
+        },
+		{
+          "name": "deleteGroup"
+        },
+		{
+          "name": "importApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importDmapim"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "getVersionsFromImportFile"
+        },
+		{
+          "name": "getVersionsFromImportFileAPI"
+        },
+		{
+          "name": "importAPIVersions"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importPolicyByPolicyName"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importFullApiVersion"
+        },
+		{
+          "name": "importDeltaApiVersion"
+        },
+		{
+          "name": "addDmapim"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "addOrUpdateUsagePlan"
+        },
+		{
+          "name": "isLdapEnabled"
+        },
+		{
+          "name": "getMasterConfigDetails"
+        },
+		{
+          "name": "getMasterConfigResponse"
+        },
+		{
+          "name": "getAllPolicyAndRevisionData"
+        },
+		{
+          "name": "getPlanPolicyAndRevisionData"
+        },
+		{
+          "name": "discardPolicyRevisionChangesByPolicyId"
+        },
+		{
+          "name": "getPolicyByPolicyRevisionId"
+        },
+		{
+          "name": "getDataById"
+        },
+		{
+          "name": "getImpactedPlansById"
+        },
+		{
+          "name": "getPlanByPolicyId"
+        },
+		{
+          "name": "addPolicy"
+        },
+		{
+          "name": "updatePolicyName"
+        },
+		{
+          "name": "updatePolicyRevision"
+        },
+		{
+          "name": "deletePolicy"
+        },
+		{
+          "name": "getPolicySearchResult"
+        },
+		{
+          "name": "getProHistory"
+        },
+		{
+          "name": "getAllOrganizations"
+        },
+		{
+          "name": "getOrganization"
+        },
+		{
+          "name": "addOrganization"
+        },
+		{
+          "name": "updateOrganization"
+        },
+		{
+          "name": "deleteOrganization"
+        },
+		{
+          "name": "getForumTopicsByPublisherId"
+        },
+		{
+          "name": "addTopic"
+        },
+		{
+          "name": "getTopics"
+        },
+		{
+          "name": "addReply"
+        },
+		{
+          "name": "getTopicByTopicId"
+        },
+		{
+          "name": "removeTopicByTopicId"
+        },
+		{
+          "name": "addSubOrganization"
+        },
+		{
+          "name": "getSubOrganization"
+        },
+		{
+          "name": "getLinkedSubOrganizationsByDomainName"
+        },
+		{
+          "name": "updateSubOrganization"
+        },
+		{
+          "name": "deleteSubOrganization"
+        },
+		{
+          "name": "getSubOrganizationsFaultConfig"
+        },
+		{
+          "name": "updateFaultConfigBySubOrgId"
+        },
+		{
+          "name": "getGeneralSetting"
+        },
+		{
+          "name": "getSandBoxFlag"
+        },
+		{
+          "name": "getPublishedDetails"
+        },
+		{
+          "name": "getLinkedSubOrganizationsBySubOrgIdForOauth"
+        },
+		{
+          "name": "getCustomOrderData"
+        },
+		{
+          "name": "getDevSubOrganizations"
+        },
+		{
+          "name": "getSubscriptionsByPubId"
+        },
+		{
+          "name": "getSubscriptionDetailsByPubId"
+        },
+		{
+          "name": "getSubscriptionsByPublishwerId"
+        },
+		{
+          "name": "getPacksByDevId"
+        },
+		{
+          "name": "getApiPackUsagePlansByPackId"
+        },
+		{
+          "name": "getSubscriberSearchResult"
+        },
+		{
+          "name": "getUsagePlanVersionsByPlanId"
+        },
+		{
+          "name": "updateSubscriptionDetail"
+        },
+		{
+          "name": "addSubscription"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateSubscriptionDetails"
+        },
+		{
+          "name": "updateSubscriberPlanAndResourceLevelPolicies"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultStructureByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultContentType"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultMessage"
+        },
+		{
+          "name": "getSubscriberPrivacyByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberIpListByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberSecuritiesPoliciesByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourcePolicies"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getCssFile"
+        },
+		{
+          "name": "getCountSummary"
+        },
+		{
+          "name": "updateUserAccountDetails"
+        },
+		{
+          "name": "getProperty"
+        },
+		{
+          "name": "getUsers"
+        },
+		{
+          "name": "getUsersByType"
+        },
+		{
+          "name": "getUser"
+        },
+		{
+          "name": "addUser"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "deleteUser"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "getSubscriptionDetails"
+        },
+		{
+          "name": "getSubscriptionDetailsByPlanId"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+			"name": "updateApprovalByIdAll"
+		},
+		{
+			"name": "updateDynamicRoutingDetails"
+		},
+		{
+			"name": "getDynamicRoutingDetails"
+		},
+		{
+			"name": "getSubscriberConfigureDetails"
+		},
+		{
+			"name": "updateSubscriberConfigureDetails"
+		},
+		{
+			"name": "createOrderForSubscription"
+		},
+		{
+			"name": "cancelSubscription"
+		},
+		{
+			"name": "getApiDetailsByVersionId"
+		},
+		{
+			"name": "updatePropagationDetailsInAdmin"
+		},
+		{
+			"name": "getApisByApiType"
+		},
+		{
+			"name": "getApisByApiState"
+		},
+		{
+			"name": "isLdapEnabledFlag"
+		},
+		{
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		},
+		{
+			"name": "paymentgatewaystatus"
+		},
+		{
+			"name": "getAllRepliesByReplyId"
+		},
+		{
+			"name": "exportExportFilesAPIPacksManager"
+		},
+		{
+			"name": "getVisibilityByGatewayId"
+		},
+		{
+			"name": "updateGatewayVisibility"
+		},
+		{
+			"name": "getVisibilityByPolicyId"
+		},
+		{
+			"name": "updateVisibilityByPolicyId"
+		}
+      ],
+      "icon_uri": ""
+    },
+	{
+      "name": "ApproverResources",
+	  "type": "urn:pubportal:resources:default",
+      "ownerManagedAccess": false,
+      "displayName": "ApproverResources",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+	  {
+          "name": "getApis"
+        },
+		{
+          "name": "getApisByType"
+        },
+		{
+          "name": "addApi"
+        },
+		{
+          "name": "deleteApi"
+        },
+		{
+          "name": "updateApiName"
+        },
+		{
+          "name": "getVersionByRevision"
+        },
+		{
+          "name": "getApiGatewayUri"
+        },
+		{
+          "name": "testApi"
+        },
+		{
+          "name": "testApiAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetails"
+        },
+		{
+          "name": "getMCTLimit"
+        },
+		{
+          "name": "updateMCTLimit"
+        },
+		{
+          "name": "wsdlData"
+        },
+		{
+          "name": "updateOperations"
+        },
+		{
+          "name": "wsdlOperationsUpdation"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdl"
+        },
+		{
+          "name": "getOperationsListFromReUploadedWsdlURL"
+        },
+		{
+          "name": "updateWsdlOperations"
+        },
+		{
+          "name": "validateBeforedeletingOperations"
+        },
+		{
+          "name": "deleteCopiedOperationOnClickCancel"
+        },
+		{
+          "name": "getExposurebasepathFromWsdl"
+        },
+		{
+          "name": "getExposureBasePathFromWSDLURL"
+        },
+		{
+          "name": "getOverviewByApiId"
+        },
+		{
+          "name": "updateOverview"
+        },
+		{
+          "name": "getOverviewAndLatestVersionByApiId"
+        },
+		{
+          "name": "getExposureBasePathFromSwaggerURLRest"
+        },
+		{
+          "name": "getSwaggerDataFromURL"
+        },
+		{
+          "name": "validateExposureBasePath"
+        },
+		{
+          "name": "resourceOperations"
+        },
+		{
+          "name": "getResources"
+        },
+		{
+          "name": "getResource"
+        },
+		{
+          "name": "checkIsResourceExists"
+        },
+		{
+          "name": "swaggerData"
+        },
+		{
+          "name": "getMasterSwaggerFromZip"
+        },
+		{
+          "name": "buildSwaggerFromMaster"
+        },
+		{
+          "name": "removeSwaggerFile"
+        },
+		{
+          "name": "getResourceListFromSwagger"
+        },
+		{
+          "name": "getResourceListFromGraphQL"
+        },
+		{
+          "name": "updateSwaggerResources"
+        },
+		{
+          "name": "updateResourceLevelRespCaching"
+        },
+		{
+          "name": "buildSwaggerFromMasterFile"
+        },
+		{
+          "name": "validateBeforedeleting"
+        },
+		{
+          "name": "downloadResourceFile"
+        },
+		{
+          "name": "getExposurebasepathFromSwagger"
+        },
+		{
+          "name": "deleteCopiedResourcesOnClickCancel"
+        },
+		{
+          "name": "getMaskingResourceTransformations"
+        },
+		{
+          "name": "updateResourceMasking"
+        },
+		{
+          "name": "getResourceTransformations"
+        },
+		{
+          "name": "updateResourceTransformation"
+        },
+		{
+          "name": "updateSchemaValidations"
+        },
+		{
+          "name": "GenericSchemaValidation"
+        },
+		{
+          "name": "getResourceSchemaXsd"
+        },
+		{
+          "name": "updateResourceSchemaXsd"
+        },
+		{
+          "name": "getApiSearchResult"
+        },
+		{
+          "name": "updateSecurityPolicy"
+        },
+		{
+          "name": "getBackendEndpointsByApiVersionId"
+        },
+		{
+          "name": "validateVersionBasePath"
+        },
+		{
+          "name": "updateOrAddBackendEndPoint"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "discardVersionChangesByApiId"
+        },
+		{
+          "name": "getVersionByVersionNoAndApiId"
+        },
+		{
+          "name": "updateVersion"
+        },
+		{
+          "name": "updateVersionRevisionLevelRespCaching"
+        },
+		{
+          "name": "deleteVersion"
+        },
+		{
+          "name": "discardRevision"
+        },
+		{
+          "name": "discardVersion"
+        },
+		{
+          "name": "updateApiRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "getVersionRequestTimeOut"
+        },
+		{
+          "name": "updateVersionRequestTimeOut"
+        },
+		{
+          "name": "getVersionResponseCache"
+        },
+		{
+          "name": "updateVersionResponseCache"
+        },
+		{
+          "name": "getVersionTransformations"
+        },
+		{
+          "name": "updateApiVersionTransformation"
+        },
+		{
+          "name": "getVisibilityByApiId"
+        },
+		{
+          "name": "updateVisibility"
+        },
+		{
+          "name": "getSoapFaultMessage"
+        },
+		{
+          "name": "getGraphqlFaultMessage"
+        },
+		{
+          "name": "getsoapfaultStructure"
+        },
+		{
+          "name": "getGraphqlFaultstructure"
+        },
+		{
+          "name": "getXsdJSonFaultMessage"
+        },
+		{
+          "name": "getfaultcontentType"
+        },
+		{
+          "name": "getRestfaultMesssage"
+        },
+		{
+          "name": "updateApiRestFaultStructure"
+        },
+		{
+          "name": "updateApiRestFaultContentType"
+        },
+		{
+          "name": "updateApiRestFaultMessages"
+        },
+		{
+          "name": "updateApiSoapFaultStructure"
+        },
+		{
+          "name": "updateApiGraphqlFaultStructure"
+        },
+		{
+          "name": "updateApiSoapFaultMessages"
+        },
+		{
+          "name": "updateApiGraphqlFaultMessages"
+        },
+		{
+          "name": "getSecurityPolicyType"
+        },
+		{
+          "name": "updateSecurityPolicyType"
+        },
+		{
+          "name": "updateBranding"
+        },
+		{
+          "name": "getBranding"
+        },
+		{
+          "name": "getPackContentApis"
+        },
+		{
+          "name": "getPackContentPublishedVersionsByApiId"
+        },
+		{
+          "name": "getPackContentUnAddedResourcesByVersionId"
+        },
+		{
+          "name": "getApiPackDetailsByPackId"
+        },
+		{
+          "name": "apiPackDetailsOperationsByApiRescId"
+        },
+		{
+          "name": "apiPackDetailsOperations"
+        },
+		{
+          "name": "checkIsResourceExistsInPack"
+        },
+		{
+          "name": "checkIsResourceExistsInLastPublished"
+        },
+		{
+          "name": "getApiDetailsByPackId"
+        },
+		{
+          "name": "updateDocumentation"
+        },
+		{
+          "name": "getDocumentationDetails"
+        },
+		{
+          "name": "updatePkDocumentation"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "getApiPacks"
+        },
+		{
+          "name": "updatePackName"
+        },
+		{
+          "name": "updateMainPlanIdForApiPack"
+        },
+		{
+          "name": "getApipackUsagePlanDetails"
+        },
+		{
+          "name": "getApipackDetailsByApiPackRevId"
+        },
+		{
+          "name": "deleteApiPack"
+        },
+		{
+          "name": "discardPackRevisionChangesByPackId"
+        },
+		{
+          "name": "getOverviewByApiPackId"
+        },
+		{
+          "name": "updateApiPackOverview"
+        },
+		{
+          "name": "getApiPackSearchResult"
+        },
+		{
+          "name": "getVisibilityDetails"
+        },
+		{
+          "name": "updateVisibilityDetails"
+        },
+		{
+          "name": "updatePlanDocumentation"
+        },
+		{
+          "name": "updateOrAddUsagePlanEndPoint"
+        },
+		{
+          "name": "getEndPoint"
+        },
+		{
+          "name": "addUsagePlan"
+        },
+		{
+          "name": "updatePricingDetails"
+        },
+		{
+          "name": "updateUsagePlan"
+        },
+		{
+          "name": "updateUsagePlanName"
+        },
+		{
+          "name": "getUsagePlan"
+        },
+		{
+          "name": "getUsagePlansByPackId"
+        },
+		{
+          "name": "getUsagePlanPoliciesByPlanId"
+        },
+		{
+          "name": "updateUsagePlanOrder"
+        },
+		{
+          "name": "deletePlan"
+        },
+		{
+          "name": "getUsagePlanSummary"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanId"
+        },
+		{
+          "name": "getPlanNonMonitisedLimitData"
+        },
+		{
+          "name": "updatePlanNonMonitisedLimitData"
+        },
+		{
+          "name": "getUsagePlanStates"
+        },
+		{
+          "name": "updatePlanLevelRestFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelRestFaultcontentType"
+        },
+		{
+          "name": "updatePlanLevelRestFaultmessages"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultStructure"
+        },
+		{
+          "name": "updatePlanLevelSoapFaultMessages"
+        },
+		{
+          "name": "updatePlanLevelGraphqlFaultMessages"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayValidation"
+        },
+		{
+          "name": "updatePlanRevisionMappedGatewayByRevId"
+        },
+		{
+          "name": "getLatestPlanRevMappedGatewayList"
+        },
+		{
+          "name": "getLatestPublishedPlanMappedGatewayList"
+        },
+		{
+          "name": "updateUsagePlanAuthentication"
+        },
+		{
+          "name": "getUsagePlanAuthentication"
+        },
+		{
+          "name": "getPlanGatewayUri"
+        },
+		{
+          "name": "testPlan"
+        },
+		{
+          "name": "testPlanAttachment"
+        },
+		{
+          "name": "getApiAutoPopDetailsForPack"
+        },
+		{
+          "name": "discardPlanRevisionChangesByPlanAndVerisonId"
+        },
+		{
+          "name": "getUsagePlanVersionSummary"
+        },
+		{
+          "name": "getUsagePlanPricingAndDocumentation"
+        },
+		{
+          "name": "getUsagePlanDetailsForApproval"
+        },
+		{
+          "name": "usagePlanOperations"
+        },
+		{
+          "name": "getPlanResourcesByPlanId"
+        },
+		{
+          "name": "getUsagePlanResourcesByUsagePlanId"
+        },
+		{
+          "name": "getUsagePlanResourcePoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanResourcePolicies"
+        },
+		{
+          "name": "getUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "updateUsagePlanTransactionRecordingByUsagePlanId"
+        },
+		{
+          "name": "getPlanRestFaultStructure"
+        },
+		{
+          "name": "getPlanRestFaultContentType"
+        },
+		{
+          "name": "getPlanRestFaultMessage"
+        },
+		{
+          "name": "getPlanSoapFaultStructure"
+        },
+		{
+          "name": "getPlanGraphqlFaultStructure"
+        },
+		{
+          "name": "getPlanSoapFaultMessage"
+        },
+		{
+          "name": "getPlanGraphqlFaultMessage"
+        },
+		{
+          "name": "updateConsumerVisibilty"
+        },
+		{
+          "name": "getConsumerVisibiltyByUsagePlanId"
+        },
+		{
+          "name": "getVersions"
+        },
+		{
+          "name": "addVersion"
+        },
+		{
+          "name": "getVersionByVersionId"
+        },
+		{
+          "name": "deletePlanVersion"
+        },
+		{
+          "name": "getUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "addUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "deleteUsagePlanDevOrgGateway"
+        },
+		{
+          "name": "getDevOrganization"
+        },
+		{
+          "name": "getUsagePlanDevOrgGatewayDetails"
+        },
+		{
+          "name": "updateUsagePlanDevOrgGatewayFromGateway"
+        },
+		{
+          "name": "getApplicationsBySubOrg"
+        },
+		{
+          "name": "getApplicationById"
+        },
+		{
+          "name": "updateApplication"
+        },
+		{
+          "name": "getTokenByClientId"
+        },
+		{
+          "name": "getOauthTokenByGrantType"
+        },
+		{
+          "name": "revokeAccessToken"
+        },
+		{
+          "name": "showAccessToken"
+        },
+		{
+          "name": "showClientSecret"
+        },
+		{
+          "name": "getDevNameBySubOrgId"
+        },
+		{
+          "name": "getPendingApprovalsForUser"
+        },
+		{
+          "name": "createApproval"
+        },
+		{
+          "name": "getApprovals"
+        },
+		{
+          "name": "getApprovalById"
+        },
+		{
+          "name": "getPendingApprovals"
+        },
+		{
+          "name": "updateApprovalById"
+        },
+		{
+          "name": "validateSyncedArtifacts"
+        },
+		{
+          "name": "getAllBackendEndpoint"
+        },
+		{
+          "name": "getAllBackendEndpointByType"
+        },
+		{
+          "name": "getBackendEP"
+        },
+		{
+          "name": "addBackendEndpoint"
+        },
+		{
+          "name": "updateBackendEndpoint"
+        },
+		{
+          "name": "getDeployedBackendEndpoint"
+        },
+		{
+          "name": "deleteBackendEndPoint"
+        },
+		{
+          "name": "getAssociatedBackendEndpointsWithVersions"
+        },
+		{
+          "name": "retCategoryNamesForRoot"
+        },
+		{
+          "name": "getCategoryNameByCatId"
+        },
+		{
+          "name": "getPackDataByCatId"
+        },
+		{
+          "name": "addCategory"
+        },
+		{
+          "name": "editCategoryDetails"
+        },
+		{
+          "name": "removeCategoryDetails"
+        },
+		{
+          "name": "getCategoryDataByParentId"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportAPIsManager"
+        },
+		{
+          "name": "getNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportUsagePlan"
+        },
+		{
+          "name": "getExportApiPack"
+        },
+		{
+          "name": "exportApiVersion"
+        },
+		{
+          "name": "exportApprPubApiVersions"
+        },
+		{
+          "name": "exportNamedPoliciesManager"
+        },
+		{
+          "name": "exportAPIPacksManager"
+        },
+		{
+          "name": "exportExportFilesAPIsManager"
+        },
+		{
+          "name": "getExportFilesNamedPolicyByPolicyName"
+        },
+		{
+          "name": "getExportFilesUsagePlan"
+        },
+		{
+          "name": "getGatewayInstanceByGatewayId"
+        },
+		{
+          "name": "getGatewayInstanceByInstanceId"
+        },
+		{
+          "name": "addGatewayInstance"
+        },
+		{
+          "name": "updateGatewayInstance"
+        },
+		{
+          "name": "getGateways"
+        },
+		{
+          "name": "getGatewayByType"
+        },
+		{
+          "name": "getGateway"
+        },
+		{
+          "name": "getDeployedApis"
+        },
+		{
+          "name": "getDeployedUsagePlans"
+        },
+		{
+          "name": "addSandboxGatewayValidation"
+        },
+		{
+          "name": "addGateway"
+        },
+		{
+          "name": "updateGateway"
+        },
+		{
+          "name": "getGatewayRestFaultStructure"
+        },
+		{
+          "name": "getGatewayRestFaultContentTypeByGatewayId"
+        },
+		{
+          "name": "getGatewayRestMessageByGatewayId"
+        },
+		{
+          "name": "getGatewaySoapFaultConfig"
+        },
+		{
+          "name": "getGatewayGraphqlFaultConfig"
+        },
+		{
+          "name": "getGatewaySoapFaultStructureByGatewayId"
+        },
+		{
+          "name": "getGatewayGraphqlFaultStructureByGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayId"
+        },
+		{
+          "name": "getArtifactDataByMappedGatewayIdAndSearchText"
+        },
+		{
+          "name": "addProductionGatewayValidation"
+        },
+		{
+          "name": "addInstanceGatewayValidation"
+        },
+		{
+          "name": "getCorePropertiesDetails"
+        },
+		{
+          "name": "getAlarmPropertiesDetails"
+        },
+		{
+          "name": "updateCorePropertiesDetails"
+        },
+		{
+          "name": "updateAlarmPropertiesDetails"
+        },
+		{
+          "name": "evictApiResourceResponseCacheByResourceId"
+        },
+		{
+          "name": "addGatewayPropagationByArtifactId"
+        },
+		{
+          "name": "getPlanStatusByPropId"
+        },
+		{
+          "name": "updateSubscriptionetailsInAdmin"
+        },
+		{
+          "name": "deleteGatewayPropagation"
+        },
+		{
+          "name": "getGatewayPropagationIdByArtifactId"
+        },
+		{
+          "name": "updateSyncHistoryDeatils"
+        },
+		{
+          "name": "getAllGroups"
+        },
+		{
+          "name": "getGroupsByType"
+        },
+		{
+          "name": "getGroup"
+        },
+		{
+          "name": "addGroup"
+        },
+		{
+          "name": "updateGroup"
+        },
+		{
+          "name": "deleteGroup"
+        },
+		{
+          "name": "importApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "importDmapim"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "getVersionsFromImportFile"
+        },
+		{
+          "name": "getVersionsFromImportFileAPI"
+        },
+		{
+          "name": "importAPIVersions"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importPolicyByPolicyName"
+        },
+		{
+          "name": "addApiPack"
+        },
+		{
+          "name": "importApiVersion"
+        },
+		{
+          "name": "addDmapim"
+        },
+		{
+          "name": "importNamedPolicies"
+        },
+		{
+          "name": "importAPIPacks"
+        },
+		{
+          "name": "importAPIs"
+        },
+		{
+          "name": "isLdapEnabled"
+        },
+		{
+          "name": "getMasterConfigDetails"
+        },
+		{
+          "name": "getMasterConfigResponse"
+        },
+		{
+          "name": "getAllPolicyAndRevisionData"
+        },
+		{
+          "name": "getPlanPolicyAndRevisionData"
+        },
+		{
+          "name": "getPolicyByPolicyRevisionId"
+        },
+		{
+          "name": "getDataById"
+        },
+		{
+          "name": "getImpactedPlansById"
+        },
+		{
+          "name": "getPlanByPolicyId"
+        },
+		{
+          "name": "addPolicy"
+        },
+		{
+          "name": "updatePolicyName"
+        },
+		{
+          "name": "updatePolicyRevision"
+        },
+		{
+          "name": "deletePolicy"
+        },
+		{
+          "name": "getPolicySearchResult"
+        },
+		{
+          "name": "getProHistory"
+        },
+		{
+          "name": "getAllOrganizations"
+        },
+		{
+          "name": "getOrganization"
+        },
+		{
+          "name": "addOrganization"
+        },
+		{
+          "name": "updateOrganization"
+        },
+		{
+          "name": "deleteOrganization"
+        },
+		{
+          "name": "getForumTopicsByPublisherId"
+        },
+		{
+          "name": "addTopic"
+        },
+		{
+          "name": "getTopics"
+        },
+		{
+          "name": "addReply"
+        },
+		{
+          "name": "getTopicByTopicId"
+        },
+		{
+          "name": "removeTopicByTopicId"
+        },
+		{
+          "name": "addSubOrganization"
+        },
+		{
+          "name": "getSubOrganization"
+        },
+		{
+          "name": "getLinkedSubOrganizationsByDomainName"
+        },
+		{
+          "name": "updateSubOrganization"
+        },
+		{
+          "name": "deleteSubOrganization"
+        },
+		{
+          "name": "getSubOrganizationsFaultConfig"
+        },
+		{
+          "name": "updateFaultConfigBySubOrgId"
+        },
+		{
+          "name": "getGeneralSetting"
+        },
+		{
+          "name": "updateDefaultMsgBySubOrg"
+        },
+		{
+          "name": "updateGraphqlDefaultMsgBySubOrg"
+        },
+		{
+          "name": "getSandBoxFlag"
+        },
+		{
+          "name": "getPublishedDetails"
+        },
+		{
+          "name": "getLinkedSubOrganizationsBySubOrgIdForOauth"
+        },
+		{
+          "name": "getCustomOrderData"
+        },
+		{
+          "name": "getDevSubOrganizations"
+        },
+		{
+          "name": "getSubscriptionsByPubId"
+        },
+		{
+          "name": "getSubscriptionDetailsByPubId"
+        },
+		{
+          "name": "getSubscriptionsByPublishwerId"
+        },
+		{
+          "name": "getPacksByDevId"
+        },
+		{
+          "name": "getApiPackUsagePlansByPackId"
+        },
+		{
+          "name": "getSubscriberSearchResult"
+        },
+		{
+          "name": "getUsagePlanVersionsByPlanId"
+        },
+		{
+          "name": "updateSubscriptionDetail"
+        },
+		{
+          "name": "addSubscription"
+        },
+		{
+          "name": "getSubscriberPoliciesByUsagePlanId"
+        },
+		{
+          "name": "updateSubscriptionDetails"
+        },
+		{
+          "name": "updateSubscriberPlanAndResourceLevelPolicies"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultStructureByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultContentType"
+        },
+		{
+          "name": "getSubscriberPlanResourceRestFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultStructure"
+        },
+		{
+          "name": "getSubscriberPlanResourceSoapFaultMessage"
+        },
+		{
+          "name": "getSubscriberPlanResourceGraphqlFaultMessage"
+        },
+		{
+          "name": "getSubscriberPrivacyByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberIpListByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberSecuritiesPoliciesByUsagePlanId"
+        },
+		{
+          "name": "getSubscriberPlanResourcePolicies"
+        },
+		{
+          "name": "testSubscription"
+        },
+		{
+          "name": "testSubscriptionMultipart"
+        },
+		{
+          "name": "getFullImage"
+        },
+		{
+          "name": "getCssFile"
+        },
+		{
+          "name": "getCountSummary"
+        },
+		{
+          "name": "updateUserAccountDetails"
+        },
+		{
+          "name": "getProperty"
+        },
+		{
+          "name": "getUsers"
+        },
+		{
+          "name": "getUsersByType"
+        },
+		{
+          "name": "getUser"
+        },
+		{
+          "name": "addUser"
+        },
+		{
+          "name": "updateUserData"
+        },
+		{
+          "name": "deleteUser"
+        },
+		{
+          "name": "updateUserPassword"
+        },
+		{
+          "name": "updatePasswordExpiryNotification"
+        },
+		{
+          "name": "updateUser"
+        },
+		{
+          "name": "getSubscribedActivePlanDetails"
+        },
+		{
+          "name": "getSubscriptionGatewayUri"
+        },
+		{
+          "name": "getSubscriptionBySubscriptId"
+        },
+		{
+          "name": "getSubscriptionDetails"
+        },
+		{
+          "name": "getSubscriptionDetailsByPlanId"
+        },
+		{
+          "name": "getSubscriptionsBySubOrgId"
+        },
+		{
+			"name": "updateApprovalByIdAll"
+		},
+        {
+			"name": "updateDynamicRoutingDetails"
+		},
+		{
+			"name": "getDynamicRoutingDetails"
+		},
+		{
+			"name": "getResourceCustomTransformations"
+		},
+		{
+			"name": "updateCustomResourceTransformation"
+		},
+		{
+			"name": "getVersionCustomTransformations"
+		},
+		{
+			"name": "updateApiVersionCustomTransformation"
+		},
+		{
+			"name": "getApiDetailsByVersionId"
+		},
+		{
+			"name": "updatePropagationDetailsInAdmin"
+		},
+		{
+			"name": "getApisByApiType"
+		},
+		{
+			"name": "getApisByApiState"
+		},
+		{
+			"name": "isLdapEnabledFlag"
+		},
+		{
+			"name": "regexForSubnet"
+		},
+		{
+			"name": "regexForIpv4"
+		},
+		{
+			"name": "regexForIpv6"
+		},
+		{
+			"name": "regexForCIDR"
+		},
+		{
+			"name": "paymentgatewaystatus"
+		},
+		{
+			"name": "getAllRepliesByReplyId"
+		},
+		{
+			"name": "exportExportFilesAPIPacksManager"
+		},
+		{
+			"name": "getVisibilityByGatewayId"
+		},
+		{
+			"name": "updateGatewayVisibility"
+		},
+		{
+			"name": "getVisibilityByPolicyId"
+		},
+		{
+			"name": "updateVisibilityByPolicyId"
+		}
+      ],
+      "icon_uri": ""
+    }
+  ],
+  "policies": [
+    {
+      "name": "AdminPolicy",
+      "description": "AdminPolicy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_ADMIN\",\"required\":true}]"
+      }
+    },
+    {
+      "name": "TechnicalPolicy",
+      "description": "TechnicalPolicy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_TECHNICAL\",\"required\":false}]"
+      }
+    },
+	{
+      "name": "BusinessPolicy",
+      "description": "BusinessPolicy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_BUSINESS\",\"required\":false}]"
+      }
+    },
+	{
+      "name": "ApproverPolicy",
+      "description": "ApproverPolicy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"ROLE_APPROVER\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "AdminPermission",
+      "description": "AdminPermission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"AdminResources\"]",
+        "applyPolicies": "[\"AdminPolicy\"]"
+      }
+    },
+    {
+      "name": "TechnicalPermission",
+      "description": "TechnicalPermission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"TechnicalResources\"]",
+        "applyPolicies": "[\"TechnicalPolicy\"]"
+      }
+    },
+	{
+      "name": "BusinessPermission",
+      "description": "BusinessPermission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"BusinessResources\"]",
+        "applyPolicies": "[\"BusinessPolicy\"]"
+      }
+    },
+	{
+      "name": "ApproverPermission",
+      "description": "ApproverPermission",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"ApproverResources\"]",
+        "applyPolicies": "[\"ApproverPolicy\"]"
+      }
+    }
+  ],
+  "scopes": [
+   {
+      "name": "getApis",
+      "iconUri": "",
+      "displayName": "getApis"
+    },
+	{
+      "name": "getApisByType",
+      "iconUri": "",
+      "displayName": "getApisByType"
+    },
+	{
+      "name": "addApi",
+      "iconUri": "",
+      "displayName": "addApi"
+    },
+	{
+      "name": "deleteApi",
+      "iconUri": "",
+      "displayName": "deleteApi"
+    },
+	{
+      "name": "updateApiName",
+      "iconUri": "",
+      "displayName": "updateApiName"
+    },
+	{
+      "name": "getVersionByRevision",
+      "iconUri": "",
+      "displayName": "getVersionByRevision"
+    },
+	{
+      "name": "getApiGatewayUri",
+      "iconUri": "",
+      "displayName": "getApiGatewayUri"
+    },
+	{
+      "name": "testApi",
+      "iconUri": "",
+      "displayName": "testApi"
+    },
+	{
+      "name": "testApiAttachment",
+      "iconUri": "",
+      "displayName": "testApiAttachment"
+    },
+	{
+      "name": "getApiAutoPopDetails",
+      "iconUri": "",
+      "displayName": "getApiAutoPopDetails"
+    },
+	{
+      "name": "getMCTLimit",
+      "iconUri": "",
+      "displayName": "getMCTLimit"
+    },
+	{
+      "name": "updateMCTLimit",
+      "iconUri": "",
+      "displayName": "updateMCTLimit"
+    },
+	{
+      "name": "wsdlData",
+      "iconUri": "",
+      "displayName": "wsdlData"
+    },
+	{
+      "name": "updateOperations",
+      "iconUri": "",
+      "displayName": "updateOperations"
+    },
+	{
+      "name": "wsdlOperationsUpdation",
+      "iconUri": "",
+      "displayName": "wsdlOperationsUpdation"
+    },
+	{
+      "name": "getOperationsListFromReUploadedWsdl",
+      "iconUri": "",
+      "displayName": "getOperationsListFromReUploadedWsdl"
+    },
+	{
+      "name": "getOperationsListFromReUploadedWsdlURL",
+      "iconUri": "",
+      "displayName": "getOperationsListFromReUploadedWsdlURL"
+    },
+	{
+      "name": "updateWsdlOperations",
+      "iconUri": "",
+      "displayName": "updateWsdlOperations"
+    },
+	{
+      "name": "validateBeforedeletingOperations",
+      "iconUri": "",
+      "displayName": "validateBeforedeletingOperations"
+    },
+	{
+      "name": "deleteCopiedOperationOnClickCancel",
+      "iconUri": "",
+      "displayName": "deleteCopiedOperationOnClickCancel"
+    },
+	{
+      "name": "getExposurebasepathFromWsdl",
+      "iconUri": "",
+      "displayName": "getExposurebasepathFromWsdl"
+    },
+	{
+      "name": "getExposureBasePathFromWSDLURL",
+      "iconUri": "",
+      "displayName": "getExposureBasePathFromWSDLURL"
+    },
+	{
+      "name": "getOverviewByApiId",
+      "iconUri": "",
+      "displayName": "getOverviewByApiId"
+    },
+	{
+      "name": "updateOverview",
+      "iconUri": "",
+      "displayName": "updateOverview"
+    },
+	{
+      "name": "getOverviewAndLatestVersionByApiId",
+      "iconUri": "",
+      "displayName": "getOverviewAndLatestVersionByApiId"
+    },
+	{
+      "name": "getExposureBasePathFromSwaggerURLRest",
+      "iconUri": "",
+      "displayName": "getExposureBasePathFromSwaggerURLRest"
+    },
+	{
+      "name": "getSwaggerDataFromURL",
+      "iconUri": "",
+      "displayName": "getSwaggerDataFromURL"
+    },
+	{
+      "name": "validateExposureBasePath",
+      "iconUri": "",
+      "displayName": "validateExposureBasePath"
+    },
+	{
+      "name": "resourceOperations",
+      "iconUri": "",
+      "displayName": "resourceOperations"
+    },
+	{
+      "name": "getResources",
+      "iconUri": "",
+      "displayName": "getResources"
+    },
+	{
+      "name": "getResource",
+      "iconUri": "",
+      "displayName": "getResource"
+    },
+	{
+      "name": "checkIsResourceExists",
+      "iconUri": "",
+      "displayName": "checkIsResourceExists"
+    },
+	{
+      "name": "swaggerData",
+      "iconUri": "",
+      "displayName": "swaggerData"
+    },
+	{
+      "name": "getMasterSwaggerFromZip",
+      "iconUri": "",
+      "displayName": "getMasterSwaggerFromZip"
+    },
+	{
+      "name": "buildSwaggerFromMaster",
+      "iconUri": "",
+      "displayName": "buildSwaggerFromMaster"
+    },
+	{
+      "name": "removeSwaggerFile",
+      "iconUri": "",
+      "displayName": "removeSwaggerFile"
+    },
+	{
+      "name": "getResourceListFromSwagger",
+      "iconUri": "",
+      "displayName": "getResourceListFromSwagger"
+    },
+	{
+      "name": "getResourceListFromGraphQL",
+      "iconUri": "",
+      "displayName": "getResourceListFromGraphQL"
+    },
+	{
+      "name": "updateSwaggerResources",
+      "iconUri": "",
+      "displayName": "updateSwaggerResources"
+    },
+	{
+      "name": "updateResourceLevelRespCaching",
+      "iconUri": "",
+      "displayName": "updateResourceLevelRespCaching"
+    },
+	{
+      "name": "buildSwaggerFromMasterFile",
+      "iconUri": "",
+      "displayName": "buildSwaggerFromMasterFile"
+    },
+	{
+      "name": "validateBeforedeleting",
+      "iconUri": "",
+      "displayName": "validateBeforedeleting"
+    },
+	{
+      "name": "downloadResourceFile",
+      "iconUri": "",
+      "displayName": "downloadResourceFile"
+    },
+	{
+      "name": "getExposurebasepathFromSwagger",
+      "iconUri": "",
+      "displayName": "getExposurebasepathFromSwagger"
+    },
+	{
+      "name": "deleteCopiedResourcesOnClickCancel",
+      "iconUri": "",
+      "displayName": "deleteCopiedResourcesOnClickCancel"
+    },
+	{
+      "name": "getMaskingResourceTransformations",
+      "iconUri": "",
+      "displayName": "getMaskingResourceTransformations"
+    },
+	{
+      "name": "updateResourceMasking",
+      "iconUri": "",
+      "displayName": "updateResourceMasking"
+    },
+	{
+      "name": "getResourceTransformations",
+      "iconUri": "",
+      "displayName": "getResourceTransformations"
+    },
+	{
+      "name": "updateResourceTransformation",
+      "iconUri": "",
+      "displayName": "updateResourceTransformation"
+    },
+	{
+      "name": "updateSchemaValidations",
+      "iconUri": "",
+      "displayName": "updateSchemaValidations"
+    },
+	{
+      "name": "GenericSchemaValidation",
+      "iconUri": "",
+      "displayName": "GenericSchemaValidation"
+    },
+	{
+      "name": "getResourceSchemaXsd",
+      "iconUri": "",
+      "displayName": "getResourceSchemaXsd"
+    },
+	{
+      "name": "updateResourceSchemaXsd",
+      "iconUri": "",
+      "displayName": "updateResourceSchemaXsd"
+    },
+	{
+      "name": "getApiSearchResult",
+      "iconUri": "",
+      "displayName": "getApiSearchResult"
+    },
+	{
+      "name": "updateSecurityPolicy",
+      "iconUri": "",
+      "displayName": "updateSecurityPolicy"
+    },
+	{
+      "name": "getBackendEndpointsByApiVersionId",
+      "iconUri": "",
+      "displayName": "getBackendEndpointsByApiVersionId"
+    },
+	{
+      "name": "validateVersionBasePath",
+      "iconUri": "",
+      "displayName": "validateVersionBasePath"
+    },
+	{
+      "name": "updateOrAddBackendEndPoint",
+      "iconUri": "",
+      "displayName": "updateOrAddBackendEndPoint"
+    },
+	{
+      "name": "getVersionTransformations",
+      "iconUri": "",
+      "displayName": "getVersionTransformations"
+    },
+	{
+      "name": "updateApiVersionTransformation",
+      "iconUri": "",
+      "displayName": "updateApiVersionTransformation"
+    },
+	{
+      "name": "getVersions",
+      "iconUri": "",
+      "displayName": "getVersions"
+    },
+	{
+      "name": "addVersion",
+      "iconUri": "",
+      "displayName": "addVersion"
+    },
+	{
+      "name": "discardVersionChangesByApiId",
+      "iconUri": "",
+      "displayName": "discardVersionChangesByApiId"
+    },
+	{
+      "name": "getVersionByVersionNoAndApiId",
+      "iconUri": "",
+      "displayName": "getVersionByVersionNoAndApiId"
+    },
+	{
+      "name": "updateVersion",
+      "iconUri": "",
+      "displayName": "updateVersion"
+    },
+	{
+      "name": "updateVersionRevisionLevelRespCaching",
+      "iconUri": "",
+      "displayName": "updateVersionRevisionLevelRespCaching"
+    },
+	{
+      "name": "deleteVersion",
+      "iconUri": "",
+      "displayName": "deleteVersion"
+    },
+	{
+      "name": "discardRevision",
+      "iconUri": "",
+      "displayName": "discardRevision"
+    },
+	{
+      "name": "discardVersion",
+      "iconUri": "",
+      "displayName": "discardVersion"
+    },
+	{
+      "name": "getApiDetailsByVersionId",
+      "iconUri": "",
+      "displayName": "getApiDetailsByVersionId"
+    },
+	{
+      "name": "updateApiRevisionMappedGatewayValidation",
+      "iconUri": "",
+      "displayName": "updateApiRevisionMappedGatewayValidation"
+    },
+	{
+      "name": "getVersionRequestTimeOut",
+      "iconUri": "",
+      "displayName": "getVersionRequestTimeOut"
+    },
+	{
+      "name": "updateVersionRequestTimeOut",
+      "iconUri": "",
+      "displayName": "updateVersionRequestTimeOut"
+    },
+	{
+      "name": "getVersionResponseCache",
+      "iconUri": "",
+      "displayName": "getVersionResponseCache"
+    },
+	{
+      "name": "updateVersionResponseCache",
+      "iconUri": "",
+      "displayName": "updateVersionResponseCache"
+    },
+	{
+      "name": "getVersionTransformations",
+      "iconUri": "",
+      "displayName": "getVersionTransformations"
+    },
+	{
+      "name": "updateApiVersionTransformation",
+      "iconUri": "",
+      "displayName": "updateApiVersionTransformation"
+    },
+	{
+      "name": "getVisibilityByApiId",
+      "iconUri": "",
+      "displayName": "getVisibilityByApiId"
+    },
+	{
+      "name": "updateVisibility",
+      "iconUri": "",
+      "displayName": "updateVisibility"
+    },
+	{
+      "name": "getSoapFaultMessage",
+      "iconUri": "",
+      "displayName": "getSoapFaultMessage"
+    },
+	{
+      "name": "getGraphqlFaultMessage",
+      "iconUri": "",
+      "displayName": "getGraphqlFaultMessage"
+    },
+	{
+      "name": "getsoapfaultStructure",
+      "iconUri": "",
+      "displayName": "getsoapfaultStructure"
+    },
+	{
+      "name": "getGraphqlFaultstructure",
+      "iconUri": "",
+      "displayName": "getGraphqlFaultstructure"
+    },
+	{
+      "name": "getXsdJSonFaultMessage",
+      "iconUri": "",
+      "displayName": "getXsdJSonFaultMessage"
+    },
+	{
+      "name": "getfaultcontentType",
+      "iconUri": "",
+      "displayName": "getfaultcontentType"
+    },
+	{
+      "name": "getRestfaultMesssage",
+      "iconUri": "",
+      "displayName": "getRestfaultMesssage"
+    },
+	{
+      "name": "updateApiRestFaultStructure",
+      "iconUri": "",
+      "displayName": "updateApiRestFaultStructure"
+    },
+	{
+      "name": "updateApiRestFaultContentType",
+      "iconUri": "",
+      "displayName": "updateApiRestFaultContentType"
+    },
+	{
+      "name": "updateApiRestFaultMessages",
+      "iconUri": "",
+      "displayName": "updateApiRestFaultMessages"
+    },
+	{
+      "name": "updateApiSoapFaultStructure",
+      "iconUri": "",
+      "displayName": "updateApiSoapFaultStructure"
+    },
+	{
+      "name": "updateApiGraphqlFaultStructure",
+      "iconUri": "",
+      "displayName": "updateApiGraphqlFaultStructure"
+    },
+	{
+      "name": "updateApiSoapFaultMessages",
+      "iconUri": "",
+      "displayName": "updateApiSoapFaultMessages"
+    },
+	{
+      "name": "updateApiGraphqlFaultMessages",
+      "iconUri": "",
+      "displayName": "updateApiGraphqlFaultMessages"
+    },
+	{
+      "name": "getSecurityPolicyType",
+      "iconUri": "",
+      "displayName": "getSecurityPolicyType"
+    },
+	{
+      "name": "updateBranding",
+      "iconUri": "",
+      "displayName": "updateBranding"
+    },
+	{
+      "name": "getBranding",
+      "iconUri": "",
+      "displayName": "getBranding"
+    },
+	{
+      "name": "getPackIcon",
+      "iconUri": "",
+      "displayName": "getPackIcon"
+    },
+	{
+      "name": "getPackContentApis",
+      "iconUri": "",
+      "displayName": "getPackContentApis"
+    },
+	{
+      "name": "getPackContentPublishedVersionsByApiId",
+      "iconUri": "",
+      "displayName": "getPackContentPublishedVersionsByApiId"
+    },
+	{
+      "name": "getPackContentUnAddedResourcesByVersionId",
+      "iconUri": "",
+      "displayName": "getPackContentUnAddedResourcesByVersionId"
+    },
+	{
+      "name": "getApiPackDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackDetailsByPackId"
+    },
+	{
+      "name": "apiPackDetailsOperationsByApiRescId",
+      "iconUri": "",
+      "displayName": "apiPackDetailsOperationsByApiRescId"
+    },
+	{
+      "name": "apiPackDetailsOperations",
+      "iconUri": "",
+      "displayName": "apiPackDetailsOperations"
+    },
+	{
+      "name": "checkIsResourceExistsInPack",
+      "iconUri": "",
+      "displayName": "checkIsResourceExistsInPack"
+    },
+	{
+      "name": "checkIsResourceExistsInLastPublished",
+      "iconUri": "",
+      "displayName": "checkIsResourceExistsInLastPublished"
+    },
+	{
+      "name": "getApiDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiDetailsByPackId"
+    },
+	{
+      "name": "updateDocumentation",
+      "iconUri": "",
+      "displayName": "updateDocumentation"
+    },
+	{
+      "name": "getDocumentationDetails",
+      "iconUri": "",
+      "displayName": "getDocumentationDetails"
+    },
+	{
+      "name": "updatePkDocumentation",
+      "iconUri": "",
+      "displayName": "updatePkDocumentation"
+    },
+	{
+      "name": "addApiPack",
+      "iconUri": "",
+      "displayName": "addApiPack"
+    },
+	{
+      "name": "getApiPacks",
+      "iconUri": "",
+      "displayName": "getApiPacks"
+    },
+	{
+      "name": "updatePackName",
+      "iconUri": "",
+      "displayName": "updatePackName"
+    },
+	{
+      "name": "updateMainPlanIdForApiPack",
+      "iconUri": "",
+      "displayName": "updateMainPlanIdForApiPack"
+    },
+	{
+      "name": "getApipackUsagePlanDetails",
+      "iconUri": "",
+      "displayName": "getApipackUsagePlanDetails"
+    },
+	{
+      "name": "getApipackDetailsByApiPackRevId",
+      "iconUri": "",
+      "displayName": "getApipackDetailsByApiPackRevId"
+    },
+	{
+      "name": "deleteApiPack",
+      "iconUri": "",
+      "displayName": "deleteApiPack"
+    },
+	{
+      "name": "discardPackRevisionChangesByPackId",
+      "iconUri": "",
+      "displayName": "discardPackRevisionChangesByPackId"
+    },
+	{
+      "name": "getOverviewByApiPackId",
+      "iconUri": "",
+      "displayName": "getOverviewByApiPackId"
+    },
+	{
+      "name": "updateApiPackOverview",
+      "iconUri": "",
+      "displayName": "updateApiPackOverview"
+    },
+	{
+      "name": "getApiPackSearchResult",
+      "iconUri": "",
+      "displayName": "getApiPackSearchResult"
+    },
+	{
+      "name": "getVisibilityDetails",
+      "iconUri": "",
+      "displayName": "getVisibilityDetails"
+    },
+	{
+      "name": "updateVisibilityDetails",
+      "iconUri": "",
+      "displayName": "updateVisibilityDetails"
+    },
+	{
+      "name": "updatePlanDocumentation",
+      "iconUri": "",
+      "displayName": "updatePlanDocumentation"
+    },
+	{
+      "name": "updateOrAddUsagePlanEndPoint",
+      "iconUri": "",
+      "displayName": "updateOrAddUsagePlanEndPoint"
+    },
+	{
+      "name": "getEndPoint",
+      "iconUri": "",
+      "displayName": "getEndPoint"
+    },
+	{
+      "name": "addUsagePlan",
+      "iconUri": "",
+      "displayName": "addUsagePlan"
+    },
+	{
+      "name": "updatePricingDetails",
+      "iconUri": "",
+      "displayName": "updatePricingDetails"
+    },
+	{
+      "name": "updateUsagePlan",
+      "iconUri": "",
+      "displayName": "updateUsagePlan"
+    },
+	{
+      "name": "updateUsagePlanName",
+      "iconUri": "",
+      "displayName": "updateUsagePlanName"
+    },
+	{
+      "name": "getUsagePlan",
+      "iconUri": "",
+      "displayName": "getUsagePlan"
+    },
+	{
+      "name": "getUsagePlansByPackId",
+      "iconUri": "",
+      "displayName": "getUsagePlansByPackId"
+    },
+	{
+      "name": "getUsagePlanPoliciesByPlanId",
+      "iconUri": "",
+      "displayName": "getUsagePlanPoliciesByPlanId"
+    },
+	{
+      "name": "updateUsagePlanOrder",
+      "iconUri": "",
+      "displayName": "updateUsagePlanOrder"
+    },
+	{
+      "name": "deletePlan",
+      "iconUri": "",
+      "displayName": "deletePlan"
+    },
+	{
+      "name": "getUsagePlanSummary",
+      "iconUri": "",
+      "displayName": "getUsagePlanSummary"
+    },
+	{
+      "name": "discardPlanRevisionChangesByPlanId",
+      "iconUri": "",
+      "displayName": "discardPlanRevisionChangesByPlanId"
+    },
+	{
+      "name": "getPlanNonMonitisedLimitData",
+      "iconUri": "",
+      "displayName": "getPlanNonMonitisedLimitData"
+    },
+	{
+      "name": "updatePlanNonMonitisedLimitData",
+      "iconUri": "",
+      "displayName": "updatePlanNonMonitisedLimitData"
+    },
+	{
+      "name": "getUsagePlanStates",
+      "iconUri": "",
+      "displayName": "getUsagePlanStates"
+    },
+	{
+      "name": "updatePlanLevelRestFaultStructure",
+      "iconUri": "",
+      "displayName": "updatePlanLevelRestFaultStructure"
+    },
+	{
+      "name": "updatePlanLevelRestFaultcontentType",
+      "iconUri": "",
+      "displayName": "updatePlanLevelRestFaultcontentType"
+    },
+	{
+      "name": "updatePlanLevelRestFaultmessages",
+      "iconUri": "",
+      "displayName": "updatePlanLevelRestFaultmessages"
+    },
+	{
+      "name": "updatePlanLevelSoapFaultStructure",
+      "iconUri": "",
+      "displayName": "updatePlanLevelSoapFaultStructure"
+    },
+	{
+      "name": "updatePlanLevelGraphqlFaultStructure",
+      "iconUri": "",
+      "displayName": "updatePlanLevelGraphqlFaultStructure"
+    },
+	{
+      "name": "updatePlanLevelSoapFaultMessages",
+      "iconUri": "",
+      "displayName": "updatePlanLevelSoapFaultMessages"
+    },
+	{
+      "name": "updatePlanLevelGraphqlFaultMessages",
+      "iconUri": "",
+      "displayName": "updatePlanLevelGraphqlFaultMessages"
+    },
+	{
+      "name": "updatePlanRevisionMappedGatewayValidation",
+      "iconUri": "",
+      "displayName": "updatePlanRevisionMappedGatewayValidation"
+    },
+	{
+      "name": "updatePlanRevisionMappedGatewayByRevId",
+      "iconUri": "",
+      "displayName": "updatePlanRevisionMappedGatewayByRevId"
+    },
+	{
+      "name": "getLatestPlanRevMappedGatewayList",
+      "iconUri": "",
+      "displayName": "getLatestPlanRevMappedGatewayList"
+    },
+	{
+      "name": "getLatestPublishedPlanMappedGatewayList",
+      "iconUri": "",
+      "displayName": "getLatestPublishedPlanMappedGatewayList"
+    },
+	{
+      "name": "updateUsagePlanAuthentication",
+      "iconUri": "",
+      "displayName": "updateUsagePlanAuthentication"
+    },
+	{
+      "name": "getUsagePlanAuthentication",
+      "iconUri": "",
+      "displayName": "getUsagePlanAuthentication"
+    },
+	{
+      "name": "getPlanGatewayUri",
+      "iconUri": "",
+      "displayName": "getPlanGatewayUri"
+    },
+	{
+      "name": "testPlan",
+      "iconUri": "",
+      "displayName": "testPlan"
+    },
+	{
+      "name": "testPlanAttachment",
+      "iconUri": "",
+      "displayName": "testPlanAttachment"
+    },
+	{
+      "name": "getApiAutoPopDetailsForPack",
+      "iconUri": "",
+      "displayName": "getApiAutoPopDetailsForPack"
+    },
+	{
+      "name": "discardPlanRevisionChangesByPlanAndVerisonId",
+      "iconUri": "",
+      "displayName": "discardPlanRevisionChangesByPlanAndVerisonId"
+    },
+	{
+      "name": "getUsagePlanVersionSummary",
+      "iconUri": "",
+      "displayName": "getUsagePlanVersionSummary"
+    },
+	{
+      "name": "getUsagePlanPricingAndDocumentation",
+      "iconUri": "",
+      "displayName": "getUsagePlanPricingAndDocumentation"
+    },
+	{
+      "name": "getUsagePlanDetailsForApproval",
+      "iconUri": "",
+      "displayName": "getUsagePlanDetailsForApproval"
+    },
+	{
+      "name": "usagePlanOperations",
+      "iconUri": "",
+      "displayName": "usagePlanOperations"
+    },
+	{
+      "name": "getPlanResourcesByPlanId",
+      "iconUri": "",
+      "displayName": "getPlanResourcesByPlanId"
+    },
+	{
+      "name": "getUsagePlanResourcesByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getUsagePlanResourcesByUsagePlanId"
+    },
+	{
+      "name": "getUsagePlanResourcePoliciesByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getUsagePlanResourcePoliciesByUsagePlanId"
+    },
+	{
+      "name": "updateUsagePlanResourcePolicies",
+      "iconUri": "",
+      "displayName": "updateUsagePlanResourcePolicies"
+    },
+	{
+      "name": "getUsagePlanTransactionRecordingByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getUsagePlanTransactionRecordingByUsagePlanId"
+    },
+	{
+      "name": "updateUsagePlanTransactionRecordingByUsagePlanId",
+      "iconUri": "",
+      "displayName": "updateUsagePlanTransactionRecordingByUsagePlanId"
+    },
+	{
+      "name": "getPlanRestFaultStructure",
+      "iconUri": "",
+      "displayName": "getPlanRestFaultStructure"
+    },
+	{
+      "name": "getPlanRestFaultContentType",
+      "iconUri": "",
+      "displayName": "getPlanRestFaultContentType"
+    },
+	{
+      "name": "getPlanRestFaultMessage",
+      "iconUri": "",
+      "displayName": "getPlanRestFaultMessage"
+    },
+	{
+      "name": "getPlanSoapFaultStructure",
+      "iconUri": "",
+      "displayName": "getPlanSoapFaultStructure"
+    },
+	{
+      "name": "getPlanGraphqlFaultStructure",
+      "iconUri": "",
+      "displayName": "getPlanGraphqlFaultStructure"
+    },
+	{
+      "name": "getPlanSoapFaultMessage",
+      "iconUri": "",
+      "displayName": "getPlanSoapFaultMessage"
+    },
+	{
+      "name": "getPlanGraphqlFaultMessage",
+      "iconUri": "",
+      "displayName": "getPlanGraphqlFaultMessage"
+    },
+	{
+      "name": "updateConsumerVisibilty",
+      "iconUri": "",
+      "displayName": "updateConsumerVisibilty"
+    },
+	{
+      "name": "getConsumerVisibiltyByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getConsumerVisibiltyByUsagePlanId"
+    },
+	{
+      "name": "getVersions",
+      "iconUri": "",
+      "displayName": "getVersions"
+    },
+	{
+      "name": "addVersion",
+      "iconUri": "",
+      "displayName": "addVersion"
+    },
+	{
+      "name": "getVersionByVersionId",
+      "iconUri": "",
+      "displayName": "getVersionByVersionId"
+    },
+	{
+      "name": "deletePlanVersion",
+      "iconUri": "",
+      "displayName": "deletePlanVersion"
+    },
+	{
+      "name": "getUsagePlanDevOrgGateway",
+      "iconUri": "",
+      "displayName": "getUsagePlanDevOrgGateway"
+    },
+	{
+      "name": "addUsagePlanDevOrgGateway",
+      "iconUri": "",
+      "displayName": "addUsagePlanDevOrgGateway"
+    },
+	{
+      "name": "updateUsagePlanDevOrgGateway",
+      "iconUri": "",
+      "displayName": "updateUsagePlanDevOrgGateway"
+    },
+	{
+      "name": "deleteUsagePlanDevOrgGateway",
+      "iconUri": "",
+      "displayName": "deleteUsagePlanDevOrgGateway"
+    },
+	{
+      "name": "getDevOrganization",
+      "iconUri": "",
+      "displayName": "getDevOrganization"
+    },
+	{
+      "name": "getUsagePlanDevOrgGatewayDetails",
+      "iconUri": "",
+      "displayName": "getUsagePlanDevOrgGatewayDetails"
+    },
+	{
+      "name": "updateUsagePlanDevOrgGatewayFromGateway",
+      "iconUri": "",
+      "displayName": "updateUsagePlanDevOrgGatewayFromGateway"
+    },
+	{
+      "name": "getApplicationsBySubOrg",
+      "iconUri": "",
+      "displayName": "getApplicationsBySubOrg"
+    },
+	{
+      "name": "getApplicationById",
+      "iconUri": "",
+      "displayName": "getApplicationById"
+    },
+	{
+      "name": "updateApplication",
+      "iconUri": "",
+      "displayName": "updateApplication"
+    },
+	{
+      "name": "getTokenByClientId",
+      "iconUri": "",
+      "displayName": "getTokenByClientId"
+    },
+	{
+      "name": "getOauthTokenByGrantType",
+      "iconUri": "",
+      "displayName": "getOauthTokenByGrantType"
+    },
+	{
+      "name": "revokeAccessToken",
+      "iconUri": "",
+      "displayName": "revokeAccessToken"
+    },
+	{
+      "name": "showAccessToken",
+      "iconUri": "",
+      "displayName": "showAccessToken"
+    },
+	{
+      "name": "getDevNameBySubOrgId",
+      "iconUri": "",
+      "displayName": "getDevNameBySubOrgId"
+    },
+	{
+      "name": "showClientSecret",
+      "iconUri": "",
+      "displayName": "showClientSecret"
+    },
+	{
+      "name": "updateApplicationStatus",
+      "iconUri": "",
+      "displayName": "updateApplicationStatus"
+    },
+	{
+      "name": "getPendingApprovalsForUser",
+      "iconUri": "",
+      "displayName": "getPendingApprovalsForUser"
+    },
+	{
+      "name": "createApproval",
+      "iconUri": "",
+      "displayName": "createApproval"
+    },
+	{
+      "name": "getApprovals",
+      "iconUri": "",
+      "displayName": "getApprovals"
+    },
+	{
+      "name": "getApprovalById",
+      "iconUri": "",
+      "displayName": "getApprovalById"
+    },
+	{
+      "name": "getPendingApprovals",
+      "iconUri": "",
+      "displayName": "getPendingApprovals"
+    },
+	{
+      "name": "updateApprovalById",
+      "iconUri": "",
+      "displayName": "updateApprovalById"
+    },
+	{
+      "name": "updateApprovalByIdAll",
+      "iconUri": "",
+      "displayName": "updateApprovalByIdAll"
+    },
+	{
+      "name": "validateSyncedArtifacts",
+      "iconUri": "",
+      "displayName": "validateSyncedArtifacts"
+    },
+	{
+      "name": "getAllBackendEndpoint",
+      "iconUri": "",
+      "displayName": "getAllBackendEndpoint"
+    },
+	{
+      "name": "getAllBackendEndpointByType",
+      "iconUri": "",
+      "displayName": "getAllBackendEndpointByType"
+    },
+	{
+      "name": "getBackendEP",
+      "iconUri": "",
+      "displayName": "getBackendEP"
+    },
+	{
+      "name": "addBackendEndpoint",
+      "iconUri": "",
+      "displayName": "addBackendEndpoint"
+    },
+	{
+      "name": "updateBackendEndpoint",
+      "iconUri": "",
+      "displayName": "updateBackendEndpoint"
+    },
+	{
+      "name": "getDeployedBackendEndpoint",
+      "iconUri": "",
+      "displayName": "getDeployedBackendEndpoint"
+    },
+	{
+      "name": "deleteBackendEndPoint",
+      "iconUri": "",
+      "displayName": "deleteBackendEndPoint"
+    },
+	{
+      "name": "getAssociatedBackendEndpointsWithVersions",
+      "iconUri": "",
+      "displayName": "getAssociatedBackendEndpointsWithVersions"
+    },
+	{
+      "name": "retCategoryNamesForRoot",
+      "iconUri": "",
+      "displayName": "retCategoryNamesForRoot"
+    },
+	{
+      "name": "getCategoryNameByCatId",
+      "iconUri": "",
+      "displayName": "getCategoryNameByCatId"
+    },
+	{
+      "name": "getPackDataByCatId",
+      "iconUri": "",
+      "displayName": "getPackDataByCatId"
+    },
+	{
+      "name": "addCategory",
+      "iconUri": "",
+      "displayName": "addCategory"
+    },
+	{
+      "name": "editCategoryDetails",
+      "iconUri": "",
+      "displayName": "editCategoryDetails"
+    },
+	{
+      "name": "removeCategoryDetails",
+      "iconUri": "",
+      "displayName": "removeCategoryDetails"
+    },
+	{
+      "name": "getCategoryDataByParentId",
+      "iconUri": "",
+      "displayName": "getCategoryDataByParentId"
+    },
+	{
+      "name": "getApiPack",
+      "iconUri": "",
+      "displayName": "getApiPack"
+    },
+	{
+      "name": "exportApiVersion",
+      "iconUri": "",
+      "displayName": "exportApiVersion"
+    },
+	{
+      "name": "exportThapiManager",
+      "iconUri": "",
+      "displayName": "exportThapiManager"
+    },
+	{
+      "name": "exportNamedPoliciesManager",
+      "iconUri": "",
+      "displayName": "exportNamedPoliciesManager"
+    },
+	{
+      "name": "exportAPIPacksManager",
+      "iconUri": "",
+      "displayName": "exportAPIPacksManager"
+    },
+	{
+      "name": "exportAPIsManager",
+      "iconUri": "",
+      "displayName": "exportAPIsManager"
+    },
+	{
+      "name": "getNamedPolicyByPolicyName",
+      "iconUri": "",
+      "displayName": "getNamedPolicyByPolicyName"
+    },
+	{
+      "name": "getExportUsagePlan",
+      "iconUri": "",
+      "displayName": "getExportUsagePlan"
+    },
+	{
+      "name": "getExportApiPack",
+      "iconUri": "",
+      "displayName": "getExportApiPack"
+    },
+	{
+      "name": "exportApiVersion",
+      "iconUri": "",
+      "displayName": "exportApiVersion"
+    },
+	{
+      "name": "exportApprPubApiVersions",
+      "iconUri": "",
+      "displayName": "exportApprPubApiVersions"
+    },
+	{
+      "name": "exportThapiManager",
+      "iconUri": "",
+      "displayName": "exportThapiManager"
+    },
+	{
+      "name": "exportNamedPoliciesManager",
+      "iconUri": "",
+      "displayName": "exportNamedPoliciesManager"
+    },
+	{
+      "name": "exportAPIPacksManager",
+      "iconUri": "",
+      "displayName": "exportAPIPacksManager"
+    },
+	{
+      "name": "exportExportFilesAPIsManager",
+      "iconUri": "",
+      "displayName": "exportExportFilesAPIsManager"
+    },
+	{
+      "name": "getExportFilesNamedPolicyByPolicyName",
+      "iconUri": "",
+      "displayName": "getExportFilesNamedPolicyByPolicyName"
+    },
+	{
+      "name": "getExportFilesUsagePlan",
+      "iconUri": "",
+      "displayName": "getExportFilesUsagePlan"
+    },
+	{
+      "name": "getGatewayInstanceByGatewayId",
+      "iconUri": "",
+      "displayName": "getGatewayInstanceByGatewayId"
+    },
+	{
+      "name": "getGatewayInstanceByInstanceId",
+      "iconUri": "",
+      "displayName": "getGatewayInstanceByInstanceId"
+    },
+	{
+      "name": "addGatewayInstance",
+      "iconUri": "",
+      "displayName": "addGatewayInstance"
+    },
+	{
+      "name": "updateGatewayInstance",
+      "iconUri": "",
+      "displayName": "updateGatewayInstance"
+    },
+	{
+      "name": "deleteGatewayInstance",
+      "iconUri": "",
+      "displayName": "deleteGatewayInstance"
+    },
+	{
+      "name": "getGateways",
+      "iconUri": "",
+      "displayName": "getGateways"
+    },
+	{
+      "name": "getGatewayByType",
+      "iconUri": "",
+      "displayName": "getGatewayByType"
+    },
+	{
+      "name": "getGateway",
+      "iconUri": "",
+      "displayName": "getGateway"
+    },
+	{
+      "name": "getDeployedApis",
+      "iconUri": "",
+      "displayName": "getDeployedApis"
+    },
+	{
+      "name": "getDeployedUsagePlans",
+      "iconUri": "",
+      "displayName": "getDeployedUsagePlans"
+    },
+	{
+      "name": "addSandboxGatewayValidation",
+      "iconUri": "",
+      "displayName": "addSandboxGatewayValidation"
+    },
+	{
+      "name": "addGateway",
+      "iconUri": "",
+      "displayName": "addGateway"
+    },
+	{
+      "name": "updateGateway",
+      "iconUri": "",
+      "displayName": "updateGateway"
+    },
+	{
+      "name": "deleteGateway",
+      "iconUri": "",
+      "displayName": "deleteGateway"
+    },
+	{
+      "name": "getGatewayRestFaultStructure",
+      "iconUri": "",
+      "displayName": "getGatewayRestFaultStructure"
+    },
+	{
+      "name": "getGatewayRestFaultContentTypeByGatewayId",
+      "iconUri": "",
+      "displayName": "getGatewayRestFaultContentTypeByGatewayId"
+    },
+	{
+      "name": "getGatewayRestMessageByGatewayId",
+      "iconUri": "",
+      "displayName": "getGatewayRestMessageByGatewayId"
+    },
+	{
+      "name": "getGatewaySoapFaultConfig",
+      "iconUri": "",
+      "displayName": "getGatewaySoapFaultConfig"
+    },
+	{
+      "name": "getGatewayGraphqlFaultConfig",
+      "iconUri": "",
+      "displayName": "getGatewayGraphqlFaultConfig"
+    },
+	{
+      "name": "getGatewaySoapFaultStructureByGatewayId",
+      "iconUri": "",
+      "displayName": "getGatewaySoapFaultStructureByGatewayId"
+    },
+	{
+      "name": "getGatewayGraphqlFaultStructureByGatewayId",
+      "iconUri": "",
+      "displayName": "getGatewayGraphqlFaultStructureByGatewayId"
+    },
+	{
+      "name": "updateRestFaultStructureByGatewayId",
+      "iconUri": "",
+      "displayName": "updateRestFaultStructureByGatewayId"
+    },
+	{
+      "name": "updaterestFaultContentType",
+      "iconUri": "",
+      "displayName": "updaterestFaultContentType"
+    },
+	{
+      "name": "updaterestFaultMessage",
+      "iconUri": "",
+      "displayName": "updaterestFaultMessage"
+    },
+	{
+      "name": "updateSoapFaultconfigByGatewayId",
+      "iconUri": "",
+      "displayName": "updateSoapFaultconfigByGatewayId"
+    },
+	{
+      "name": "updateGraphqlFaultconfigByGatewayId",
+      "iconUri": "",
+      "displayName": "updateGraphqlFaultconfigByGatewayId"
+    },
+	{
+      "name": "updateGraphqlFaultMessageByGatewayId",
+      "iconUri": "",
+      "displayName": "updateGraphqlFaultMessageByGatewayId"
+    },
+	{
+      "name": "updateSoapFaultMessageByGatewayId",
+      "iconUri": "",
+      "displayName": "updateSoapFaultMessageByGatewayId"
+    },
+	{
+      "name": "getArtifactDataByMappedGatewayId",
+      "iconUri": "",
+      "displayName": "getArtifactDataByMappedGatewayId"
+    },
+	{
+      "name": "mapGatewayToArtifactByArtifactId",
+      "iconUri": "",
+      "displayName": "mapGatewayToArtifactByArtifactId"
+    },
+	{
+      "name": "getArtifactDataByMappedGatewayIdAndSearchText",
+      "iconUri": "",
+      "displayName": "getArtifactDataByMappedGatewayIdAndSearchText"
+    },
+	{
+      "name": "getRePropagationAPIList",
+      "iconUri": "",
+      "displayName": "getRePropagationAPIList"
+    },
+	{
+      "name": "rePropagateApis",
+      "iconUri": "",
+      "displayName": "rePropagateApis"
+    },
+	{
+      "name": "getRePropagationUsagePlanList",
+      "iconUri": "",
+      "displayName": "getRePropagationUsagePlanList"
+    },
+	{
+      "name": "rePropagateUsagePlans",
+      "iconUri": "",
+      "displayName": "rePropagateUsagePlans"
+    },
+	{
+      "name": "getRePropagationUsagePoliciesList",
+      "iconUri": "",
+      "displayName": "getRePropagationUsagePoliciesList"
+    },
+	{
+      "name": "rePropagateUsagePolicies",
+      "iconUri": "",
+      "displayName": "rePropagateUsagePolicies"
+    },
+	{
+      "name": "getRePropagationSubscriptionList",
+      "iconUri": "",
+      "displayName": "getRePropagationSubscriptionList"
+    },
+	{
+      "name": "rePropagateSubscriptions",
+      "iconUri": "",
+      "displayName": "rePropagateSubscriptions"
+    },
+	{
+      "name": "getRePropagationBackendEndpointList",
+      "iconUri": "",
+      "displayName": "getRePropagationBackendEndpointList"
+    },
+	{
+      "name": "rePropagateBackendEndpoints",
+      "iconUri": "",
+      "displayName": "rePropagateBackendEndpoints"
+    },
+	{
+      "name": "addProductionGatewayValidation",
+      "iconUri": "",
+      "displayName": "addProductionGatewayValidation"
+    },
+	{
+      "name": "addInstanceGatewayValidation",
+      "iconUri": "",
+      "displayName": "addInstanceGatewayValidation"
+    },
+	{
+      "name": "getCorePropertiesDetails",
+      "iconUri": "",
+      "displayName": "getCorePropertiesDetails"
+    },
+	{
+      "name": "getAlarmPropertiesDetails",
+      "iconUri": "",
+      "displayName": "getAlarmPropertiesDetails"
+    },
+	{
+      "name": "updateCorePropertiesDetails",
+      "iconUri": "",
+      "displayName": "updateCorePropertiesDetails"
+    },
+	{
+      "name": "updateAlarmPropertiesDetails",
+      "iconUri": "",
+      "displayName": "updateAlarmPropertiesDetails"
+    },
+	{
+      "name": "getGatewayPropagationsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getGatewayPropagationsBySubOrgId"
+    },
+	{
+      "name": "getMongoBackUpDbs",
+      "iconUri": "",
+      "displayName": "getMongoBackUpDbs"
+    },
+	{
+      "name": "updateMongoWithBkupData",
+      "iconUri": "",
+      "displayName": "updateMongoWithBkupData"
+    },
+	{
+      "name": "validateSynchronizationArtifacts",
+      "iconUri": "",
+      "displayName": "validateSynchronizationArtifacts"
+    },
+	{
+      "name": "updatePropagationDetailsInAdminByArtifactId",
+      "iconUri": "",
+      "displayName": "updatePropagationDetailsInAdminByArtifactId"
+    },
+	{
+      "name": "evictApiResourceResponseCacheByResourceId",
+      "iconUri": "",
+      "displayName": "evictApiResourceResponseCacheByResourceId"
+    },
+	{
+      "name": "addGatewayPropagationByArtifactId",
+      "iconUri": "",
+      "displayName": "addGatewayPropagationByArtifactId"
+    },
+	{
+      "name": "getPlanStatusByPropId",
+      "iconUri": "",
+      "displayName": "getPlanStatusByPropId"
+    },
+	{
+      "name": "updateSubscriptionetailsInAdmin",
+      "iconUri": "",
+      "displayName": "updateSubscriptionetailsInAdmin"
+    },
+	{
+      "name": "deleteGatewayPropagation",
+      "iconUri": "",
+      "displayName": "deleteGatewayPropagation"
+    },
+	{
+      "name": "getGatewayPropagationIdByArtifactId",
+      "iconUri": "",
+      "displayName": "getGatewayPropagationIdByArtifactId"
+    },
+	{
+      "name": "getLatestPublishedRevisionsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getLatestPublishedRevisionsBySubOrgId"
+    },
+	{
+      "name": "dropMongoDbBackupCollections",
+      "iconUri": "",
+      "displayName": "dropMongoDbBackupCollections"
+    },
+	{
+      "name": "getLatestPublishedApiRevisionsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getLatestPublishedApiRevisionsBySubOrgId"
+    },
+	{
+      "name": "getLatestPublishedPlanRevisionsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getLatestPublishedPlanRevisionsBySubOrgId"
+    },
+	{
+      "name": "getLatestPublishedArtifactsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getLatestPublishedArtifactsBySubOrgId"
+    },
+	{
+      "name": "updateArtifactsBySubOrgIdForHistoryRollback",
+      "iconUri": "",
+      "displayName": "updateArtifactsBySubOrgIdForHistoryRollback"
+    },
+	{
+      "name": "updateArtifactsBySubOrgIdForRollback",
+      "iconUri": "",
+      "displayName": "updateArtifactsBySubOrgIdForRollback"
+    },
+	{
+      "name": "updateArtifactsBySubOrgIdForRollbackInMysql",
+      "iconUri": "",
+      "displayName": "updateArtifactsBySubOrgIdForRollbackInMysql"
+    },
+	{
+      "name": "updateSyncHistoryDeatils",
+      "iconUri": "",
+      "displayName": "updateSyncHistoryDeatils"
+    },
+	{
+      "name": "updateArtifactsBySubOrgIdForRollbackInMysqlForHistory",
+      "iconUri": "",
+      "displayName": "updateArtifactsBySubOrgIdForRollbackInMysqlForHistory"
+    },
+	{
+      "name": "getAllGroups",
+      "iconUri": "",
+      "displayName": "getAllGroups"
+    },
+	{
+      "name": "getGroupsByType",
+      "iconUri": "",
+      "displayName": "getGroupsByType"
+    },
+	{
+      "name": "getGroup",
+      "iconUri": "",
+      "displayName": "getGroup"
+    },
+	{
+      "name": "addGroup",
+      "iconUri": "",
+      "displayName": "addGroup"
+    },
+	{
+      "name": "updateGroup",
+      "iconUri": "",
+      "displayName": "updateGroup"
+    },
+	{
+      "name": "deleteGroup",
+      "iconUri": "",
+      "displayName": "deleteGroup"
+    },
+	{
+      "name": "importApiPack",
+      "iconUri": "",
+      "displayName": "importApiPack"
+    },
+	{
+      "name": "importApiVersion",
+      "iconUri": "",
+      "displayName": "importApiVersion"
+    },
+	{
+      "name": "importDmapim",
+      "iconUri": "",
+      "displayName": "importDmapim"
+    },
+	{
+      "name": "importAPIs",
+      "iconUri": "",
+      "displayName": "importAPIs"
+    },
+	{
+      "name": "getVersionsFromImportFile",
+      "iconUri": "",
+      "displayName": "getVersionsFromImportFile"
+    },
+	{
+      "name": "getVersionsFromImportFileAPI",
+      "iconUri": "",
+      "displayName": "getVersionsFromImportFileAPI"
+    },
+	{
+      "name": "importAPIVersions",
+      "iconUri": "",
+      "displayName": "importAPIVersions"
+    },
+	{
+      "name": "importNamedPolicies",
+      "iconUri": "",
+      "displayName": "importNamedPolicies"
+    },
+	{
+      "name": "importAPIPacks",
+      "iconUri": "",
+      "displayName": "importAPIPacks"
+    },
+	{
+      "name": "importPolicyByPolicyName",
+      "iconUri": "",
+      "displayName": "importPolicyByPolicyName"
+    },
+	{
+      "name": "importApiVersion",
+      "iconUri": "",
+      "displayName": "importApiVersion"
+    },
+	{
+      "name": "importFullApiVersion",
+      "iconUri": "",
+      "displayName": "importFullApiVersion"
+    },
+	{
+      "name": "importDeltaApiVersion",
+      "iconUri": "",
+      "displayName": "importDeltaApiVersion"
+    },
+	{
+      "name": "addDmapim",
+      "iconUri": "",
+      "displayName": "addDmapim"
+    },
+	{
+      "name": "importNamedPolicies",
+      "iconUri": "",
+      "displayName": "importNamedPolicies"
+    },
+	{
+      "name": "importAPIPacks",
+      "iconUri": "",
+      "displayName": "importAPIPacks"
+    },
+	{
+      "name": "importAPIs",
+      "iconUri": "",
+      "displayName": "importAPIs"
+    },
+	{
+      "name": "addUsagePlan",
+      "iconUri": "",
+      "displayName": "addUsagePlan"
+    },
+	{
+      "name": "addOrUpdateUsagePlan",
+      "iconUri": "",
+      "displayName": "addOrUpdateUsagePlan"
+    },
+	{
+      "name": "isLdapEnabled",
+      "iconUri": "",
+      "displayName": "isLdapEnabled"
+    },
+	{
+      "name": "getMasterConfigDetails",
+      "iconUri": "",
+      "displayName": "getMasterConfigDetails"
+    },
+	{
+      "name": "getMasterConfigResponse",
+      "iconUri": "",
+      "displayName": "getMasterConfigResponse"
+    },
+	{
+      "name": "getAllPolicyAndRevisionData",
+      "iconUri": "",
+      "displayName": "getAllPolicyAndRevisionData"
+    },
+	{
+      "name": "getPlanPolicyAndRevisionData",
+      "iconUri": "",
+      "displayName": "getPlanPolicyAndRevisionData"
+    },
+	{
+      "name": "discardPolicyRevisionChangesByPolicyId",
+      "iconUri": "",
+      "displayName": "discardPolicyRevisionChangesByPolicyId"
+    },
+	{
+      "name": "getPolicyByPolicyRevisionId",
+      "iconUri": "",
+      "displayName": "getPolicyByPolicyRevisionId"
+    },
+	{
+      "name": "getDataById",
+      "iconUri": "",
+      "displayName": "getDataById"
+    },
+	{
+      "name": "getImpactedPlansById",
+      "iconUri": "",
+      "displayName": "getImpactedPlansById"
+    },
+	{
+      "name": "getPlanByPolicyId",
+      "iconUri": "",
+      "displayName": "getPlanByPolicyId"
+    },
+	{
+      "name": "addPolicy",
+      "iconUri": "",
+      "displayName": "addPolicy"
+    },
+	{
+      "name": "updatePolicyName",
+      "iconUri": "",
+      "displayName": "updatePolicyName"
+    },
+	{
+      "name": "updatePolicyRevision",
+      "iconUri": "",
+      "displayName": "updatePolicyRevision"
+    },
+	{
+      "name": "deletePolicy",
+      "iconUri": "",
+      "displayName": "deletePolicy"
+    },
+	{
+      "name": "getPolicySearchResult",
+      "iconUri": "",
+      "displayName": "getPolicySearchResult"
+    },
+	{
+      "name": "getProHistoryDetailsByGatewayPropSubOrgId",
+      "iconUri": "",
+      "displayName": "getProHistoryDetailsByGatewayPropSubOrgId"
+    },
+	{
+      "name": "addPropogationHistory",
+      "iconUri": "",
+      "displayName": "addPropogationHistory"
+    },
+	{
+      "name": "getProHistory",
+      "iconUri": "",
+      "displayName": "getProHistory"
+    },
+	{
+      "name": "getFilenamesList",
+      "iconUri": "",
+      "displayName": "getFilenamesList"
+    },
+	{
+      "name": "importDeltaApiVersion",
+      "iconUri": "",
+      "displayName": "importDeltaApiVersion"
+    },
+	{
+      "name": "importDeltaApiVersion",
+      "iconUri": "",
+      "displayName": "importDeltaApiVersion"
+    },
+	{
+      "name": "getFileByParentId",
+      "iconUri": "",
+      "displayName": "getFileByParentId"
+    },
+	{
+      "name": "updateFileContentManagement",
+      "iconUri": "",
+      "displayName": "updateFileContentManagement"
+    },
+	{
+      "name": "addContentFolder",
+      "iconUri": "",
+      "displayName": "addContentFolder"
+    },
+	{
+      "name": "deleteContentFolder",
+      "iconUri": "",
+      "displayName": "deleteContentFolder"
+    },
+	{
+      "name": "deleteContentFile",
+      "iconUri": "",
+      "displayName": "deleteContentFile"
+    },
+	{
+      "name": "getAllOrganizations",
+      "iconUri": "",
+      "displayName": "getAllOrganizations"
+    },
+	{
+      "name": "getOrganization",
+      "iconUri": "",
+      "displayName": "getOrganization"
+    },
+	{
+      "name": "addOrganization",
+      "iconUri": "",
+      "displayName": "addOrganization"
+    },
+	{
+      "name": "updateOrganization",
+      "iconUri": "",
+      "displayName": "updateOrganization"
+    },
+	{
+      "name": "deleteOrganization",
+      "iconUri": "",
+      "displayName": "deleteOrganization"
+    },
+	{
+      "name": "getForumTopicsByPublisherId",
+      "iconUri": "",
+      "displayName": "getForumTopicsByPublisherId"
+    },
+	{
+      "name": "addTopic",
+      "iconUri": "",
+      "displayName": "addTopic"
+    },
+	{
+      "name": "getTopics",
+      "iconUri": "",
+      "displayName": "getTopics"
+    },
+	{
+      "name": "getAllRepliesByReplyId",
+      "iconUri": "",
+      "displayName": "getAllRepliesByReplyId"
+    },
+	{
+      "name": "addReply",
+      "iconUri": "",
+      "displayName": "addReply"
+    },
+	{
+      "name": "getTopicByTopicId",
+      "iconUri": "",
+      "displayName": "getTopicByTopicId"
+    },
+	{
+      "name": "removeTopicByTopicId",
+      "iconUri": "",
+      "displayName": "removeTopicByTopicId"
+    },
+	{
+      "name": "addSubOrganization",
+      "iconUri": "",
+      "displayName": "addSubOrganization"
+    },
+	{
+      "name": "getSubOrganization",
+      "iconUri": "",
+      "displayName": "getSubOrganization"
+    },
+	{
+      "name": "getLinkedSubOrganizationsByDomainName",
+      "iconUri": "",
+      "displayName": "getLinkedSubOrganizationsByDomainName"
+    },
+	{
+      "name": "updateSubOrganization",
+      "iconUri": "",
+      "displayName": "updateSubOrganization"
+    },
+	{
+      "name": "deleteSubOrganization",
+      "iconUri": "",
+      "displayName": "deleteSubOrganization"
+    },
+	{
+      "name": "getSubOrganizationsFaultConfig",
+      "iconUri": "",
+      "displayName": "getSubOrganizationsFaultConfig"
+    },
+	{
+      "name": "updateFaultConfigBySubOrgId",
+      "iconUri": "",
+      "displayName": "updateFaultConfigBySubOrgId"
+    },
+	{
+      "name": "updateSoapFaultMessageBySubOrgId",
+      "iconUri": "",
+      "displayName": "updateSoapFaultMessageBySubOrgId"
+    },
+	{
+      "name": "updateGraphqlFaultMessageBySubOrgId",
+      "iconUri": "",
+      "displayName": "updateGraphqlFaultMessageBySubOrgId"
+    },
+	{
+      "name": "updateEndpointNameAndSandboxFlag",
+      "iconUri": "",
+      "displayName": "updateEndpointNameAndSandboxFlag"
+    },
+	{
+      "name": "getGeneralSetting",
+      "iconUri": "",
+      "displayName": "getGeneralSetting"
+    },
+	{
+      "name": "updateDefaultMsgBySubOrg",
+      "iconUri": "",
+      "displayName": "updateDefaultMsgBySubOrg"
+    },
+	{
+      "name": "updateGraphqlDefaultMsgBySubOrg",
+      "iconUri": "",
+      "displayName": "updateGraphqlDefaultMsgBySubOrg"
+    },
+	{
+      "name": "getDefaultMessageBySubOrg",
+      "iconUri": "",
+      "displayName": "getDefaultMessageBySubOrg"
+    },
+	{
+      "name": "getSoapFaultStructureBySubOrg",
+      "iconUri": "",
+      "displayName": "getSoapFaultStructureBySubOrg"
+    },
+	{
+      "name": "getGraphqlDefaultMessageBySubOrg",
+      "iconUri": "",
+      "displayName": "getGraphqlDefaultMessageBySubOrg"
+    },
+	{
+      "name": "getGraphqlFaultStructureBySubOrg",
+      "iconUri": "",
+      "displayName": "getGraphqlFaultStructureBySubOrg"
+    },
+	{
+      "name": "getSandBoxFlag",
+      "iconUri": "",
+      "displayName": "getSandBoxFlag"
+    },
+	{
+      "name": "getPublishedDetails",
+      "iconUri": "",
+      "displayName": "getPublishedDetails"
+    },
+	{
+      "name": "getLinkedSubOrganizationsBySubOrgIdForOauth",
+      "iconUri": "",
+      "displayName": "getLinkedSubOrganizationsBySubOrgIdForOauth"
+    },
+	{
+      "name": "getDefaultReSTMessageBySubOrg",
+      "iconUri": "",
+      "displayName": "getDefaultReSTMessageBySubOrg"
+    },
+	{
+      "name": "getDefaultReSTFaultStructurBySubOrg",
+      "iconUri": "",
+      "displayName": "getDefaultReSTFaultStructurBySubOrg"
+    },
+	{
+      "name": "getDefaultReSTFaultContentTypeBySubOrg",
+      "iconUri": "",
+      "displayName": "getDefaultReSTFaultContentTypeBySubOrg"
+    },
+	{
+      "name": "updateReSTDefaultMsgBySubOrg",
+      "iconUri": "",
+      "displayName": "updateReSTDefaultMsgBySubOrg"
+    },
+	{
+      "name": "updateRestDefaultFaultContentType",
+      "iconUri": "",
+      "displayName": "updateRestDefaultFaultContentType"
+    },
+	{
+      "name": "getCustomOrderData",
+      "iconUri": "",
+      "displayName": "getCustomOrderData"
+    },
+	{
+      "name": "getDevSubOrganizations",
+      "iconUri": "",
+      "displayName": "getDevSubOrganizations"
+    },
+	{
+      "name": "getSuborgpropertiesBySubOrg",
+      "iconUri": "",
+      "displayName": "getSuborgpropertiesBySubOrg"
+    },
+	{
+      "name": "updateSuborgPropertyDetails",
+      "iconUri": "",
+      "displayName": "updateSuborgPropertyDetails"
+    },
+	{
+      "name": "addBookMark",
+      "iconUri": "",
+      "displayName": "addBookMark"
+    },
+	{
+      "name": "getBookMarks",
+      "iconUri": "",
+      "displayName": "getBookMarks"
+    },
+	{
+      "name": "deleteBookmark",
+      "iconUri": "",
+      "displayName": "deleteBookmark"
+    },
+	{
+      "name": "getTopicByTopicId",
+      "iconUri": "",
+      "displayName": "getTopicByTopicId"
+    },
+	{
+      "name": "getAllRepliesByReplyId",
+      "iconUri": "",
+      "displayName": "getAllRepliesByReplyId"
+    },
+	{
+      "name": "deleteTopicByTopicId",
+      "iconUri": "",
+      "displayName": "deleteTopicByTopicId"
+    },
+	{
+      "name": "getConsumerStore",
+      "iconUri": "",
+      "displayName": "getConsumerStore"
+    },
+	{
+      "name": "getApiPackbySearchKey",
+      "iconUri": "",
+      "displayName": "getApiPackbySearchKey"
+    },
+	{
+      "name": "getApiPackAndUsagePlanDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackAndUsagePlanDetailsByPackId"
+    },
+	{
+      "name": "getFullImage",
+      "iconUri": "",
+      "displayName": "getFullImage"
+    },
+	{
+      "name": "getDisplayOerderList",
+      "iconUri": "",
+      "displayName": "getDisplayOerderList"
+    },
+	{
+      "name": "getApiPackbySearchKeyAndOrder",
+      "iconUri": "",
+      "displayName": "getApiPackbySearchKeyAndOrder"
+    },
+	{
+      "name": "downloadSwagger",
+      "iconUri": "",
+      "displayName": "downloadSwagger"
+    },
+	{
+      "name": "updateRating",
+      "iconUri": "",
+      "displayName": "updateRating"
+    },
+	{
+      "name": "getApiPackRatingDetailsByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackRatingDetailsByPackId"
+    },
+	{
+      "name": "getSwaggerByPlainId",
+      "iconUri": "",
+      "displayName": "getSwaggerByPlainId"
+    },
+	{
+      "name": "getSubscriptionsByPubId",
+      "iconUri": "",
+      "displayName": "getSubscriptionsByPubId"
+    },
+	{
+      "name": "getSubscriptionDetailsByPubId",
+      "iconUri": "",
+      "displayName": "getSubscriptionDetailsByPubId"
+    },
+	{
+      "name": "getSubscriptionsByPublishwerId",
+      "iconUri": "",
+      "displayName": "getSubscriptionsByPublishwerId"
+    },
+	{
+      "name": "getPacksByDevId",
+      "iconUri": "",
+      "displayName": "getPacksByDevId"
+    },
+	{
+      "name": "getApiPackUsagePlansByPackId",
+      "iconUri": "",
+      "displayName": "getApiPackUsagePlansByPackId"
+    },
+	{
+      "name": "getSubscriberSearchResult",
+      "iconUri": "",
+      "displayName": "getSubscriberSearchResult"
+    },
+	{
+      "name": "getUsagePlanVersionsByPlanId",
+      "iconUri": "",
+      "displayName": "getUsagePlanVersionsByPlanId"
+    },
+	{
+      "name": "updateSubscriptionDetail",
+      "iconUri": "",
+      "displayName": "updateSubscriptionDetail"
+    },
+	{
+      "name": "addSubscription",
+      "iconUri": "",
+      "displayName": "addSubscription"
+    },
+	{
+      "name": "getSubscriberPoliciesByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberPoliciesByUsagePlanId"
+    },
+	{
+      "name": "updateSubscriptionDetails",
+      "iconUri": "",
+      "displayName": "updateSubscriptionDetails"
+    },
+	{
+      "name": "updateSubscriberPlanAndResourceLevelPolicies",
+      "iconUri": "",
+      "displayName": "updateSubscriberPlanAndResourceLevelPolicies"
+    },
+	{
+      "name": "getSubscriberPlanResourceRestFaultStructureByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceRestFaultStructureByUsagePlanId"
+    },
+	{
+      "name": "getSubscriberPlanResourceRestFaultContentType",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceRestFaultContentType"
+    },
+	{
+      "name": "getSubscriberPlanResourceRestFaultMessage",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceRestFaultMessage"
+    },
+	{
+      "name": "getSubscriberPlanResourceSoapFaultStructure",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceSoapFaultStructure"
+    },
+	{
+      "name": "getSubscriberPlanResourceGraphqlFaultStructure",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceGraphqlFaultStructure"
+    },
+	{
+      "name": "getSubscriberPlanResourceSoapFaultMessage",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceSoapFaultMessage"
+    },
+	{
+      "name": "getSubscriberPlanResourceGraphqlFaultMessage",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourceGraphqlFaultMessage"
+    },
+	{
+      "name": "getSubscriberPrivacyByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberPrivacyByUsagePlanId"
+    },
+	{
+      "name": "getSubscriberIpListByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberIpListByUsagePlanId"
+    },
+	{
+      "name": "getSubscriberSecuritiesPoliciesByUsagePlanId",
+      "iconUri": "",
+      "displayName": "getSubscriberSecuritiesPoliciesByUsagePlanId"
+    },
+	{
+      "name": "getSubscriberPlanResourcePolicies",
+      "iconUri": "",
+      "displayName": "getSubscriberPlanResourcePolicies"
+    },
+	{
+      "name": "cancelSubscription",
+      "iconUri": "",
+      "displayName": "cancelSubscription"
+    },
+	{
+      "name": "getSubscriptionsBySubOrgId",
+      "iconUri": "",
+      "displayName": "getSubscriptionsBySubOrgId"
+    },
+	{
+      "name": "updateSubscriptionAutoRenew",
+      "iconUri": "",
+      "displayName": "updateSubscriptionAutoRenew"
+    },
+	{
+      "name": "getSubscriptionBySubscriptId",
+      "iconUri": "",
+      "displayName": "getSubscriptionBySubscriptId"
+    },
+	{
+      "name": "getSubscriptionDetails",
+      "iconUri": "",
+      "displayName": "getSubscriptionDetails"
+    },
+	{
+      "name": "getSubscriptionDetailsByPlanId",
+      "iconUri": "",
+      "displayName": "getSubscriptionDetailsByPlanId"
+    },
+	{
+      "name": "updateSubscriptionAuthentication",
+      "iconUri": "",
+      "displayName": "updateSubscriptionAuthentication"
+    },
+	{
+      "name": "getSubscribedActivePlanDetails",
+      "iconUri": "",
+      "displayName": "getSubscribedActivePlanDetails"
+    },
+	{
+      "name": "getSubscriptionGatewayUri",
+      "iconUri": "",
+      "displayName": "getSubscriptionGatewayUri"
+    },
+	{
+      "name": "addSubscription",
+      "iconUri": "",
+      "displayName": "addSubscription"
+    },
+	{
+      "name": "testSubscription",
+      "iconUri": "",
+      "displayName": "testSubscription"
+    },
+	{
+      "name": "testSubscriptionMultipart",
+      "iconUri": "",
+      "displayName": "testSubscriptionMultipart"
+    },
+	{
+      "name": "getThemeBySubOrgId",
+      "iconUri": "",
+      "displayName": "getThemeBySubOrgId"
+    },
+	{
+      "name": "updateTheme",
+      "iconUri": "",
+      "displayName": "updateTheme"
+    },
+	{
+      "name": "getFullImage",
+      "iconUri": "",
+      "displayName": "getFullImage"
+    },
+	{
+      "name": "getCssFile",
+      "iconUri": "",
+      "displayName": "getCssFile"
+    },
+	{
+      "name": "getCountSummary",
+      "iconUri": "",
+      "displayName": "getCountSummary"
+    },
+	{
+      "name": "updateUserAccountDetails",
+      "iconUri": "",
+      "displayName": "updateUserAccountDetails"
+    },
+	{
+      "name": "getProperty",
+      "iconUri": "",
+      "displayName": "getProperty"
+    },
+	{
+      "name": "AnalyticsData",
+      "iconUri": "",
+      "displayName": "AnalyticsData"
+    },
+	{
+      "name": "getUsers",
+      "iconUri": "",
+      "displayName": "getUsers"
+    },
+	{
+      "name": "getUsersByType",
+      "iconUri": "",
+      "displayName": "getUsersByType"
+    },
+	{
+      "name": "getUser",
+      "iconUri": "",
+      "displayName": "getUser"
+    },
+	{
+      "name": "addUser",
+      "iconUri": "",
+      "displayName": "addUser"
+    },
+	{
+      "name": "updateUserData",
+      "iconUri": "",
+      "displayName": "updateUserData"
+    },
+	{
+      "name": "deleteUser",
+      "iconUri": "",
+      "displayName": "deleteUser"
+    },
+	{
+      "name": "updateUserPassword",
+      "iconUri": "",
+      "displayName": "updateUserPassword"
+    },
+	{
+      "name": "updatePasswordExpiryNotification",
+      "iconUri": "",
+      "displayName": "updatePasswordExpiryNotification"
+    },
+	{
+      "name": "ResendUserCredentials",
+      "iconUri": "",
+      "displayName": "ResendUserCredentials"
+    },
+	{
+      "name": "updateUser",
+      "iconUri": "",
+      "displayName": "updateUser"
+    },
+	{
+		"name": "updateDynamicRoutingDetails",
+		 "iconUri": "",
+		"displayName": "updateDynamicRoutingDetails"
+	},
+	{
+		"name": "getDynamicRoutingDetails",
+		"iconUri": "",
+		"displayName": "getDynamicRoutingDetails"
+	},
+	{
+		"name": "getSuborgPaymentGatewayDetailsBySubOrg",
+		"iconUri": "",
+		"displayName": "getSuborgPaymentGatewayDetailsBySubOrg"
+	},
+	{
+		"name": "updatePaymentGatewayDetails",
+		"iconUri": "",
+		"displayName": "updatePaymentGatewayDetails"
+	},
+	{
+		"name": "addPaymentGatewayDetails",
+		"iconUri": "",
+		"displayName": "addPaymentGatewayDetails"
+	},
+	{
+		"name": "deletePaymentGatewayDetails",
+		"iconUri": "",
+		"displayName": "deletePaymentGatewayDetails"
+	},
+	{
+		"name": "deactivatePaymentGateway",
+		"iconUri": "",
+		"displayName": "deactivatePaymentGateway"
+	},
+	{
+		"name": "activatePaymentGateway",
+		"iconUri": "",
+		"displayName": "activatePaymentGateway"
+	},
+	{
+		"name": "getSubscriberConfigureDetails",
+		"iconUri": "",
+		"displayName": "getSubscriberConfigureDetails"
+	},
+	{
+		"name": "updateSubscriberConfigureDetails",
+		"iconUri": "",
+		"displayName": "updateSubscriberConfigureDetails"
+	},
+	{
+		"name": "createOrderForSubscription",
+		"iconUri": "",
+		"displayName": "createOrderForSubscription"
+	},
+	{
+		"name": "analyticsData",
+		"iconUri": "",
+		"displayName": "analyticsData"
+	},
+	{
+		"name": "getResourceCustomTransformations",
+		"iconUri": "",
+		"displayName": "getResourceCustomTransformations"
+	},
+	{
+		"name": "updateCustomResourceTransformation",
+		"iconUri": "",
+		"displayName": "updateCustomResourceTransformation"
+	},
+	{
+		"name": "getVersionCustomTransformations",
+		"iconUri": "",
+		"displayName": "getVersionCustomTransformations"
+	},
+	{
+		"name": "updateApiVersionCustomTransformation",
+		"iconUri": "",
+		"displayName": "updateApiVersionCustomTransformation"
+	},
+	{
+		"name": "updatePropagationDetailsInAdmin",
+		"iconUri": "",
+		"displayName": "updatePropagationDetailsInAdmin"
+	},
+	{
+		"name": "getApisByApiType",
+		"iconUri": "",
+		"displayName": "getApisByApiType"
+	},
+	{
+		"name": "getApisByApiState",
+		"iconUri": "",
+		"displayName": "getApisByApiState"
+	},
+	{
+		"name": "isLdapEnabledFlag",
+		"iconUri": "",
+		"displayName": "isLdapEnabledFlag"
+	},
+	{
+		"name": "regexForSubnet",
+		"iconUri": "",
+		"displayName": "regexForSubnet"
+	},
+	{
+		"name": "regexForIpv4",
+		"iconUri": "",
+		"displayName": "regexForIpv4"
+	},
+	{
+		"name": "regexForIpv6",
+		"iconUri": "",
+		"displayName": "regexForIpv6"
+	},
+	{
+		"name": "regexForCIDR",
+		"iconUri": "",
+		"displayName": "regexForCIDR"
+	},
+	{
+		"name": "paymentgatewaystatus",
+		"iconUri": "",
+		"displayName": "paymentgatewaystatus"
+	},
+	{
+		"name": "exportExportFilesThapiManager",
+		"iconUri": "",
+		"displayName": "exportExportFilesThapiManager"
+  },
+	{
+		"name": "exportExportFilesAPIPacksManager",
+		"iconUri": "",
+		"displayName": "exportExportFilesAPIPacksManager"
+	},
+	{
+		"name": "getVisibilityByGatewayId",
+		"iconUri": "",
+		"displayName": "getVisibilityByGatewayId"
+	},
+	{
+		"name": "updateGatewayVisibility",
+		"iconUri": "",
+		"displayName": "updateGatewayVisibility"
+	},
+	{
+		"name": "getVisibilityByPolicyId",
+		"iconUri": "",
+		"displayName": "getVisibilityByPolicyId"
+	},
+	{
+		"name": "updateVisibilityByPolicyId",
+		"iconUri": "",
+		"displayName": "updateVisibilityByPolicyId"
+	}
+  ],
+  "decisionStrategy": "AFFIRMATIVE"
+}
